@@ -27,7 +27,7 @@ export default function Section7(){
             alt="..."
           />
           <div
-            className="p-3 section-6"
+            className="p-3 section-6 d-none"
             style={{
               color: 'black',
               backgroundColor: '#D9D9D9',
@@ -51,7 +51,7 @@ export default function Section7(){
             alt="..."
           />
           <div
-            className="p-3 section-6"
+            className="p-3 section-6 d-none"
             style={{
               color: 'black',
               backgroundColor: '#D9D9D9',
@@ -75,7 +75,7 @@ export default function Section7(){
             alt="..."
           />
           <div
-            className="p-3 section-6"
+            className="p-3 section-6 d-none"
             style={{
               color: 'black',
               backgroundColor: '#D9D9D9',
