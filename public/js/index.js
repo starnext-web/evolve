@@ -46,6 +46,20 @@ counters.forEach(counter => {
 });
 
 
+// 
+const myModal = document.getElementById('myModal');
+const video1 = document.getElementById('video1');
+
+// 
+myModal.addEventListener('shown.bs.modal', function() {
+    video1.play();
+});
+
+// 
+myModal.addEventListener('hidden.bs.modal', function() {
+    video1.pause();
+});
+
 
 
 
