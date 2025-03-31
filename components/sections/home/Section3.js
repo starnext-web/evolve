@@ -7,7 +7,7 @@ export default function Section3(){
     {/* Image Section */}
     <div className="p-2 text-center p-md-5 w-100 d-none d-md-block align-item-center d-flex justify-content-center">
       
-      <video className="w-100" src="images/Earth.mp4" autoPlay loop muted />
+      <video className="w-100" src="images/new.mp4" autoPlay loop muted />
       
     </div>
 
@@ -16,7 +16,8 @@ export default function Section3(){
       <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: "75px" }}>
         We Spread Around the World
       </h2>
-      <img  src="images/Earth.webp" className="mobile-image-2 d-md-none pt-3" width="700px" alt="" />
+    
+      <video className="mobile-image-2 d-md-none pt-3" src="images/new.mp4" width="700px" autoPlay loop muted />
       <h4
         className="pt-4"
         style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
