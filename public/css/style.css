@@ -210,6 +210,14 @@
       width: 40% !important;
   }
 
+  .scro {
+    position: sticky !important;
+    top: 10px !important;
+}
+.scro h4{
+  font-size: 17px;
+}
+
  
       }
      
