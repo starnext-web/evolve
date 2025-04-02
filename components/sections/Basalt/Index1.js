@@ -872,7 +872,7 @@ Cast basalt reduces wear on walls and the bottom of equipment
         Frequently Asked Questions
       </h2>
       <img
-        src="images/section-7.webp"
+        src="images/faq-2.jpg"
         className="w-75 my-4"
         style={{
           borderRadius: '10px',

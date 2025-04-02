@@ -41,10 +41,10 @@ const Section4 = () => {
       <div className="d-lg-flex p-md-5">
         <div className="w-100">
           <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: "75px" }}>
-            Coal Flow <br /> Monitoring System
+          Our Sensor Based  <br />Software Development Company
           </h2>
         </div>
-        <div className="w-100">
+        <div className="w-100 d-flex justify-content-center align-items-center">
           <h4
             className="pt-4"
             style={{
@@ -56,14 +56,17 @@ const Section4 = () => {
             The Coal Flow Monitoring System is a real-time system that continuously
             measures and balances the mass flow, temperature, and velocity of coal
             in each pipe using advanced microwave.
-          </h4>
-          <a
+            <br />
+            <a
             className="btn btn-danger btn-lg mt-4"
             href="#"
             style={{ backgroundColor: "red" }}
           >
+            
             Know More
           </a>
+          </h4>
+         
         </div>
       </div>
 

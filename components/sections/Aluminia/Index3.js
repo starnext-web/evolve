@@ -411,7 +411,7 @@ export default function Index3(){
               Frequently Asked Questions
             </h2>
             <img
-              src="images/section-7.webp"
+             src="images/faq-2.jpg"
               className="w-75 my-4"
               style={{ borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}
               alt=""

@@ -54,6 +54,54 @@ export default function Section5(){
   </div>
   {/* CARD end */}
 
+
+   {/* CARD */}
+   <div className="mb-5 scro">
+    <div
+      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
+      style={{
+        backgroundColor: '#F4F4F4',
+        borderRadius: '10px',
+        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+      }}
+    >
+      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
+        <img
+          src="images/image6.webp"
+          className="w-100"
+          alt=""
+          style={{
+            borderRadius: '10px',
+            boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+          }}
+        />
+      </div>
+      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
+        <h2 className="fs-1">Alumina Powder and Fused Alumina Abrasive</h2>
+        <h4
+          style={{
+            color: 'rgb(66, 66, 66)',
+            fontWeight: 400,
+            textAlign: 'justify',
+          }}
+        >
+          BMW's Wear Seal® series, including Wear Seal® Diamond and Wear Seal® CBC, protects against extreme wear, abrasion, and corrosion. These customizable linings are applied to pipes, chutes, and hoppers, offering a cost-effective solution to extend machinery life in cement, mining, and power generation industries.
+        </h4>
+        <div className="d-flex m-auto m-md-0">
+          <Link
+            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
+            href="/FusedAluminaAbrasive"
+          >
+            Know More
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* CARD end */}
+
+  
+
   {/* CARD */}
   <div className="mb-5 scro">
     <div
@@ -99,50 +147,7 @@ export default function Section5(){
   </div>
   {/* CARD end */}
 
-  {/* CARD */}
-  <div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-        <img
-          src="images/image6.webp"
-          className="w-100"
-          alt=""
-          style={{
-            borderRadius: '10px',
-            boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-          }}
-        />
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Alumina Powder and Fused Alumina Abrasive</h2>
-        <h4
-          style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
-          }}
-        >
-          BMW's Wear Seal® series, including Wear Seal® Diamond and Wear Seal® CBC, protects against extreme wear, abrasion, and corrosion. These customizable linings are applied to pipes, chutes, and hoppers, offering a cost-effective solution to extend machinery life in cement, mining, and power generation industries.
-        </h4>
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/FusedAluminaAbrasive"
-          >
-            Know More
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* CARD end */}
+ 
 
   {/* CARD */}
   <div className="mb-5 scro">
