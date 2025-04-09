@@ -114,7 +114,7 @@ export default function Section5(){
     >
       <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
         <img
-          src="images/alumina/section-2 (3).png"
+          src="images/image_3_.jpg"
           className="w-100"
           alt=""
           style={{
