@@ -266,7 +266,7 @@ export default function Section1(){
             
           
             <div className="video-container">
-  <video className="w-100" src="/banner-video/aluminia2.mp4" autoPlay loop muted />
+  <video className="w-100" src="/banner-video/aluminia3.mp4" autoPlay loop muted />
 </div>
 
             
