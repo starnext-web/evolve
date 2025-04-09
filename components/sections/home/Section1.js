@@ -183,7 +183,7 @@ export default function Section1(){
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}
 >
-<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>BMW Steels</h1></div>
+<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>BMW Steels Ltd</h1></div>
            
 
 <div className="video-container">
@@ -266,7 +266,7 @@ export default function Section1(){
             
           
             <div className="video-container">
-  <video className="w-100" src="/banner-video/aluminia.mp4" autoPlay loop muted />
+  <video className="w-100" src="/banner-video/aluminia2.mp4" autoPlay loop muted />
 </div>
 
             
