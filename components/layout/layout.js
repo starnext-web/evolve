@@ -4,56 +4,7 @@ import Footer from "./footer";
 export default function Layout({children}) {
     return(
    <>
-   <div className=" button-container ">
-   <button type="button" className="btn btn-primary rotated-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Enquire Now
-</button>
-    </div>
-
-
-<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header" style={{ backgroundColor: 'rgb(0, 0, 0)',color:'rgb(255, 255, 255)'}}>
-        
-        <button type="button" style={{ backgroundColor: 'rgb(255, 255, 255)',color:'rgb(255, 255, 255)'}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div className="">
-      <div className="w-100 d-flex justify-content-center align-items-center mt-3 mt-md-0">
-            <form className="p-5 w-100" style={{ backgroundColor: 'rgb(233, 233, 233)', borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}>
-              <h1 className="text-center">Get in touch</h1>
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Name</label>
-                <input type="text" className="form-control" placeholder="Enter your Name" id="exampleInputEmail1" />
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
-                <input type="email" className="form-control" placeholder="Enter your Email" id="exampleInputEmail1" />
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Phone Number</label>
-                <input type="tel" className="form-control" placeholder="Enter your Phone Number" id="exampleInputEmail1" />
-              </div>
-
-              <div className="mb-3">
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">Description</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" />
-              </div>
-
-              <div className="text-center">
-                <button type="submit" style={{ backgroundColor: 'red', border: 'none' }} className="btn btn-primary mb-3">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
+   
    <Header/>
    {children}
    
