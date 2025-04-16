@@ -29,7 +29,7 @@ export default function Section5(){
       <div className="carousel-inner pt-2">
         <div className="carousel-item active text-center w-100">
           <img
-            src="images/images/Fabrication/1.jpg"
+            src="images/mages/Fabrication/1.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -55,7 +55,7 @@ export default function Section5(){
         
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Fabrication/2.jpg"
+            src="images/mages/Fabrication/2.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -144,7 +144,7 @@ export default function Section5(){
       <div className="carousel-inner pt-2">
         <div className="carousel-item active text-center w-100">
           <img
-            src="images/images/Cast-Basalt-Tiles/1.jpg"
+            src="images/mages/Cast-Basalt-Tiles/1.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -169,7 +169,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Cast-Basalt-Tiles/2.jpg"
+            src="images/mages/Cast-Basalt-Tiles/2.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -193,7 +193,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Cast-Basalt-Tiles/5.jpg"
+            src="images/mages/Cast-Basalt-Tiles/5.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -219,7 +219,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Cast-Basalt-Tiles/6.jpg"
+            src="images/mages/Cast-Basalt-Tiles/6.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -309,7 +309,7 @@ export default function Section5(){
       <div className="carousel-inner pt-2">
         <div className="carousel-item active text-center w-100">
           <img
-            src="images/images/Alumina-Powder/5.jpg"
+            src="images/mages/Alumina-Powder/5.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -334,7 +334,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Powder/2.jpg"
+            src="images/mages/Alumina-Powder/2.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -358,7 +358,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Powder/1.jpg"
+            src="images/mages/Alumina-Powder/1.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -384,7 +384,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Powder/3.jpg"
+            src="images/mages/Alumina-Powder/3.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -412,7 +412,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Powder/4.jpg"
+            src="images/mages/Alumina-Powder/4.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -507,7 +507,7 @@ export default function Section5(){
       <div className="carousel-inner pt-2">
         <div className="carousel-item active text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/1.jpg"
+            src="images/mages/Alumina-Ceramic/1.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -532,7 +532,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/2.jpg"
+            src="images/mages/Alumina-Ceramic/2.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -556,7 +556,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/8.jpg"
+            src="images/mages/Alumina-Ceramic/8.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -582,7 +582,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/4.jpg"
+            src="images/mages/Alumina-Ceramic/4.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -610,7 +610,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/5.jpg"
+            src="images/mages/Alumina-Ceramic/5.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -637,7 +637,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/6.jpg"
+            src="images/mages/Alumina-Ceramic/6.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -665,7 +665,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/Alumina-Ceramic/7.jpg"
+            src="images/mages/Alumina-Ceramic/7.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -788,7 +788,7 @@ export default function Section5(){
       <div className="carousel-inner pt-2">
         <div className="carousel-item active text-center w-100">
           <img
-            src="images/images/CBC/1.jpg"
+            src="images/mages/CBC/1.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -813,7 +813,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/CBC/3.jpg"
+            src="images/mages/CBC/3.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -837,7 +837,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/CBC/2.jpg"
+            src="images/mages/CBC/2.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
@@ -863,7 +863,7 @@ export default function Section5(){
 
         <div className="carousel-item text-center w-100">
           <img
-            src="images/images/CBC/4.jpg"
+            src="images/mages/CBC/4.jpg"
             style={{ borderRadius: '15px' }}
             className="d-block w-100"
             alt="..."
