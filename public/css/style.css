@@ -314,3 +314,9 @@ scroll-padding: 300px !important;
         margin: 0;
         transform-origin: right center;
     }
+
+    .faq-2{
+      background-color: #f5f5f5;
+      font-weight: normal;
+           border-radius: 8px;
+    }

@@ -246,7 +246,7 @@ export default function Section1(){
           <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>FUSED ALUMINA ABRASIVE</h1></div>
             
           <div className="video-container">
-      <video className="w-100" src="/banner-video/abrasive.mp4" autoPlay loop muted/>
+      <video className="w-100" src="/banner-video/abrasive2.mp4" autoPlay loop muted/>
     </div>
             
           </div>
@@ -309,7 +309,7 @@ export default function Section1(){
             
           
             <div className="video-container">
-  <video className="w-100" src="/banner-video/banner-video3.mp4" autoPlay loop muted />
+  <video className="w-100" src="/banner-video/banner-video5.mp4" autoPlay loop muted />
 </div>
 
             

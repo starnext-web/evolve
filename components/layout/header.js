@@ -39,6 +39,15 @@ export default function Header() {
                 className={`nav-link white now ${isActive('/CastBasalt') ? 'active' : ''}`}
                 href="/CastBasalt"
               >
+                Fabrication
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className={`nav-link white now ${isActive('/CastBasalt') ? 'active' : ''}`}
+                href="/CastBasalt"
+              >
                 Cast Basalt
               </Link>
             </li>

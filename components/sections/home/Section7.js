@@ -10,7 +10,7 @@ export default function Section7(){
     </h2>
     <div className="px-md-5 text-start">
       <h4 style={{ color: 'rgb(66, 66, 66)', fontWeight: 400 }}>
-        BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Hathras and Khurja, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
+        BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Roorkee Bhagwanpur, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
       </h4>
     </div>
   </div>
@@ -119,11 +119,9 @@ export default function Section7(){
 <div className="px-md-5 px-2 my-5">
   <div className="d-lg-flex justify-content-center align-items-center px-md-5">
     <div className="w-100 d-flex justify-content-center align-items-center flex-column ps-md-5 justify-content-md-start align-items-md-start">
-      <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
-        Frequently Asked Questions
-      </h2>
+      
       <img
-        src="images/faq-2.jpg"
+        src="images/last.webp"
         className="w-75 my-4"
         style={{
           borderRadius: '10px',
@@ -133,115 +131,19 @@ export default function Section7(){
       />
     </div>
     <div className="w-100 pe-md-5">
-      <div className="accordion" id="accordionExample">
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingOne" style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}>
-            <button
-              className="accordion-button fs-4 my-2"
-              style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              How can I buy Products from your website?
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            className="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body btn-danger" style={{ borderRadius: '5px' }}>
-              <h4 className="fs-6 text-white" style={{ color: 'rgb(66, 66, 66)', fontWeight: 300 }}>
-                BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Hathras and Khurja, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingTwo" style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}>
-            <button
-              className="accordion-button collapsed fs-4 my-2"
-              style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              How can I buy Products from your website?
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            className="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body btn-danger" style={{ borderRadius: '5px' }}>
-              <h4 className="fs-6 text-white" style={{ color: 'rgb(66, 66, 66)', fontWeight: 300 }}>
-                BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Hathras and Khurja, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingthree" style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}>
-            <button
-              className="accordion-button collapsed fs-4 my-2"
-              style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapsethree"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              How can I buy Products from your website?
-            </button>
-          </h2>
-          <div
-            id="collapsethree"
-            className="accordion-collapse collapse"
-            aria-labelledby="headingthree"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body btn-danger" style={{ borderRadius: '5px' }}>
-              <h4 className="fs-6 text-white" style={{ color: 'rgb(66, 66, 66)', fontWeight: 300 }}>
-                BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Hathras and Khurja, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="accordion-item">
-          <h2 className="accordion-header" id="headingfour" style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}>
-            <button
-              className="accordion-button collapsed fs-4 my-2"
-              style={{ backgroundColor: '#D9D9D9', borderRadius: '5px' }}
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapsefour"
-              aria-expanded="false"
-              aria-controls="collapsefour"
-            >
-              How can I buy Products from your website?
-            </button>
-          </h2>
-          <div
-            id="collapsefour"
-            className="accordion-collapse collapse"
-            aria-labelledby="headingfour"
-            data-bs-parent="#accordionExample"
-          >
-            <div className="accordion-body btn-danger" style={{ borderRadius: '0 0px 5px 5px' }}>
-              <h4 className="fs-6 text-white" style={{ color: 'rgb(66, 66, 66)', fontWeight: 300 }}>
-                BMW Steels Ltd. operates state-of-the-art manufacturing plants equipped with cutting-edge technologies in Hathras and Khurja, specializing in advanced fabrication, assembly, and the production of high-quality wear-resistant and coal flow management solutions, ensuring precision and efficiency at every step.
-              </h4>
-            </div>
-          </div>
-        </div>
+      <div className="accordion p-2" id="accordionExample">
+      <h2 className="pt-4 mobile-fonts-heading text-center pb-3x" style={{ fontSize: '75px' }}>
+        Our Assurance
+      </h2>
+       <h5 className="faq-2 p-2 ps-4">1. We guarantee exceeding customer expectations through professional service.</h5>
+<br/>
+       <h5 className="faq-2 p-2 ps-4">2. We guarantee world class quality through ‘Make in India’ products</h5>
+       <br/>
+       <h5 className="faq-2 p-2 ps-4">3. We guarantee productivity improvement, energy saving, cost efficiency</h5>
+       <br/>
+       <h5 className="faq-2 p-2 ps-4">4. We guarantee consistency in quality of products, and service.</h5>
+       <br/>
+       <h5 className="faq-2 p-2 ps-4">5. We guarantee to be ON TIME.</h5>
       </div>
     </div>
   </div>
