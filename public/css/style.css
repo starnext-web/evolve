@@ -320,3 +320,42 @@ scroll-padding: 300px !important;
       font-weight: normal;
            border-radius: 8px;
     }
+
+
+
+
+    
+
+
+    .skiptranslate{
+      background: #38383800 !important;
+      color: #e6231500 !important
+      
+    }
+    #google_element{
+      background: #383838 !important;
+      border: none !important;
+      
+    }
+    .goog-te-gadget-simple{
+      background: #000000 !important;
+      color: white !important;
+      border: none !important;
+    }
+    .VIpgJd-ZVi9od-xl07Ob-lTBxed{
+      color: white !important;
+    }
+    .goog-te-combo{
+      background: #000000 !important;
+      color: white !important;
+      width: 150px;
+      border: none !important;
+    }
+    .skiptranslate span{
+display: none !important;
+background-image: url('/images/llogo.png');
+    }
+
+    .skiptranslate select{
+      border: none !important;
+    }
