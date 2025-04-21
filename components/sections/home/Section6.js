@@ -15,41 +15,31 @@ export default function Section5(){
       </div>
       <div>
         <img
-          src="images/certificate/1.webp"
+          src="images/file-10.jpg"
           style={{ cursor: 'pointer' }}
           data-bs-target="#carouselWithThumbnails"
           data-bs-slide-to="0"
-          className="active"
+          className="active w-25"
           alt="Thumbnail 1"
         />
         <img
-          src="images/certificate/2.webp"
+          src="images/file-20.jpg"
           style={{ cursor: 'pointer' }}
           data-bs-target="#carouselWithThumbnails"
           data-bs-slide-to="1"
           alt="Thumbnail 2"
+          className="w-25"
         />
         <img
-          src="images/certificate/3.webp"
+          src="images/file-30.jpg"
           style={{ cursor: 'pointer' }}
           data-bs-target="#carouselWithThumbnails"
           data-bs-slide-to="2"
           alt="Thumbnail 3"
+            className="w-25"
         />
-        <img
-          src="images/certificate/4.webp"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="3"
-          alt="Thumbnail 4"
-        />
-        <img
-          src="images/certificate/5.webp"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="4"
-          alt="Thumbnail 5"
-        />
+       
+       
       </div>
     </div>
 
@@ -57,7 +47,7 @@ export default function Section5(){
       <div className="carousel-inner w-100">
         <div className="carousel-item active text-center">
           <img
-            src="images/certificate/1.webp"
+            src="images/file-10.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 1"
@@ -65,7 +55,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/2.webp"
+            src="images/file-20.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 2"
@@ -73,28 +63,13 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/3.webp"
+            src="images/file-30.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 3"
           />
         </div>
-        <div className="carousel-item">
-          <img
-            src="images/certificate/4.webp"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 4"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/certificate/5.webp"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 5"
-          />
-        </div>
+       
       </div>
 
       <div className="d-none">
@@ -141,36 +116,26 @@ export default function Section5(){
         </h4>
       </div>
       <img
-        src="images/certificate/1.webp"
+        src="images/file-10.jpg"
         data-bs-target="#carouselWithThumbnailss"
         data-bs-slide-to="0"
         className="active"
         alt="Thumbnail 1"
       />
       <img
-        src="images/certificate/2.webp"
+        src="images/file-20.jpg"
         data-bs-target="#carouselWithThumbnailss"
         data-bs-slide-to="1"
         alt="Thumbnail 2"
       />
       <img
-        src="images/certificate/3.webp"
+        src="images/file-30.jpg"
         data-bs-target="#carouselWithThumbnailss"
         data-bs-slide-to="2"
         alt="Thumbnail 3"
       />
-      <img
-        src="images/certificate/4.webp"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="3"
-        alt="Thumbnail 4"
-      />
-      <img
-        src="images/certificate/5.webp"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="4"
-        alt="Thumbnail 5"
-      />
+      
+      
     </div>
 
     <div id="carouselWithThumbnailss" className="carousel slide p-2 w-100" data-bs-ride="carousel">
