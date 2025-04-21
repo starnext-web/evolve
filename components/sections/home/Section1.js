@@ -125,7 +125,7 @@ export default function Section1(){
             aria-current="true"
             aria-label="Slide 4"
           >
-            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Aluminia Creamic</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
+            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Alumina Ceramic</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
           </button>
 
 
@@ -262,7 +262,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>ALUMINIA CREAMIC</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>ALUMINA CERAMIC</h1></div>
             
           
             <div className="video-container">

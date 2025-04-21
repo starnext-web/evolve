@@ -85,7 +85,7 @@ export default function Footer() {
                 </p>
                 <p>
                   <Link href="/AluminiaCeramic" className="text-reset text-decoration-none now">
-                    Aluminia Ceramic
+                    Alumina Ceramic
                   </Link>
                 </p>
                 <p>

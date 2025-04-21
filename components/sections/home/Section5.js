@@ -329,7 +329,7 @@ export default function Section5(){
             }}
           >
             
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Aluminia Melt After Cooling And Fracturing</h4>
+            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Melt After Cooling And Fracturing</h4>
           </div>
         </div>
         <div className="carousel-item text-center w-100">
@@ -353,7 +353,7 @@ export default function Section5(){
             }}
           >
             
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Aluminia Alumina Powder After Ball Milling</h4>
+            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Alumina Powder After Ball Milling</h4>
           </div>
         </div>
         <div className="carousel-item text-center w-100">
@@ -716,7 +716,7 @@ export default function Section5(){
     </div>
       </div>
       <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Aluminia Creamic Division</h2>
+        <h2 className="fs-1">Alumina Creamic Division</h2>
         <h4
           style={{
             color: 'rgb(66, 66, 66)',
