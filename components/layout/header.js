@@ -38,7 +38,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 className={`nav-link white now ${isActive('/CastBasalt') ? 'active' : ''}`}
-                href="/CastBasalt"
+                href="/Fabrication"
               >
                 Fabrication
               </Link>

@@ -79,7 +79,7 @@ export default function Footer() {
                   </Link>
                 </p>
                 <p>
-                  <Link href="/AluminiaCeramic" className="text-reset text-decoration-none now">
+                  <Link href="/Fabrication" className="text-reset text-decoration-none now">
                     Fabrication
                   </Link>
                 </p>

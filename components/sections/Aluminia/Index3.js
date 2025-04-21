@@ -45,7 +45,7 @@ export default function Index3(){
       {/* Section 1 */}
       <div className="p-md-5 mt-3">
         <div className="d-lg-flex px-md-5 justify-content-center align-items-center">
-          <div className="w-100 p-3">
+          <div className="w-100 p-3 pb-5">
             <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
               Sintered Alumina Powder Manufacturing
             </h2>
@@ -53,32 +53,25 @@ export default function Index3(){
               className="pt-4"
               style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
             >
-              BMW registered brand for Alumina ceramic is ALUMINA92®. It is sintered and fused Alumina Powder. It is very hard, wear-resistant, and corrosion-resistant ceramic material. It is valued for its outstanding strength against impact, resistance to acid and alkali and wear properties.
+              Sintering is the process of forming a densified solid mass of alumina 
+with heat and oxidising atmosphere without melting. The multistep 
+process requires that the powder be mixed with organic binders and 
+lubricants then pressed into shapes.
             </h5>
             <h5
               className="pt-4"
               style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
             >
-              It can be shaped through various methods including die pressing, isostatic pressing, slip casting and extrusion. It’s sintered crystalline structure is similar to that of sapphire and ruby. Alumina ceramic is primarily used as an abrasion resistant material for Coal and mineral conveying line and components
+              Post pressing firing process is 
+undertaken so that the binder and lubricants be removed to achieve 
+required density and strength. After the binder has been removed the 
+alumina particles begin to attach to each other through surface 
+diffusion. Finally the pressed part shrinks as the porosity is removed 
+increasing the densification.
             </h5>
           </div>
           <div className="text-center p-3 ps-md-5">
-            <img
-              src="images/alumina/section-1.png"
-              style={{ borderRadius: '10px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px' }}
-              className="w-100"
-              alt=""
-            />
-            <div className="pt-2">
-              <h3>Alumina Powder</h3>
-              <a
-                href="pdf/CFM Catalogue.pdf"
-                download=""
-                style={{ color: 'red', textDecoration: 'none' }}
-              >
-                Download Now
-              </a>
-            </div>
+           
           </div>
         </div>
 
