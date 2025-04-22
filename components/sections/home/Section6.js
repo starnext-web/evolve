@@ -38,6 +38,24 @@ export default function Section5(){
           alt="Thumbnail 3"
             className="w-25"
         />
+
+<img
+          src="images/file-40.jpg"
+          style={{ cursor: 'pointer' }}
+          data-bs-target="#carouselWithThumbnails"
+          data-bs-slide-to="3"
+          alt="Thumbnail 4"
+            className="w-25"
+        />
+
+<img
+          src="images/file-50.jpg"
+          style={{ cursor: 'pointer' }}
+          data-bs-target="#carouselWithThumbnails"
+          data-bs-slide-to="4"
+          alt="Thumbnail 5"
+            className="w-25"
+        />
        
        
       </div>
@@ -64,6 +82,24 @@ export default function Section5(){
         <div className="carousel-item">
           <img
             src="images/file-30.jpg"
+            className="d-block"
+            style={{ height: '450px', width: '300px' }}
+            alt="Slide 3"
+          />
+        </div>
+
+        <div className="carousel-item">
+          <img
+            src="images/file-40.jpg"
+            className="d-block"
+            style={{ height: '450px', width: '300px' }}
+            alt="Slide 3"
+          />
+        </div>
+
+        <div className="carousel-item">
+          <img
+            src="images/file-50.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 3"
@@ -134,6 +170,20 @@ export default function Section5(){
         data-bs-slide-to="2"
         alt="Thumbnail 3"
       />
+
+<img
+        src="images/file-40.jpg"
+        data-bs-target="#carouselWithThumbnailss"
+        data-bs-slide-to="3"
+        alt="Thumbnail 4"
+      />
+      <img
+        src="images/file-50.jpg"
+        data-bs-target="#carouselWithThumbnailss"
+        data-bs-slide-to="4"
+        alt="Thumbnail 5"
+      />
+      
       
       
     </div>
@@ -150,7 +200,7 @@ export default function Section5(){
       <div className="carousel-inner w-100 m-auto ps-4">
         <div className="carousel-item active text-center">
           <img
-            src="images/certificate/1.webp"
+            src="images/file-10.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 1"
@@ -158,7 +208,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/2.webp"
+            src="images/file-20.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 2"
@@ -166,7 +216,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/3.webp"
+            src="images/file-30.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 3"
@@ -174,7 +224,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/4.webp"
+            src="images/file-40.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 4"
@@ -182,7 +232,7 @@ export default function Section5(){
         </div>
         <div className="carousel-item">
           <img
-            src="images/certificate/5.webp"
+            src="images/file-50.jpg"
             className="d-block"
             style={{ height: '450px', width: '300px' }}
             alt="Slide 5"
