@@ -287,33 +287,7 @@ scroll-padding: 300px !important;
       }
     
 
-      .button-container {
-        position: fixed;
-            right: 15;
-            top: 50%;
-            transform: rotate(90deg) ;
-            transform-origin: right center;
-            width: var(--button-height);
-            height: var(--button-width);
-            z-index: 20;
-            transform-origin: 0% right;
-           
-    }
-
-
-      .rotated-button {
-        width: var(--button-width);
-        height: var(--button-height);
-       
-        background-color: #ff3030 !important;
-        border-color: #E62415 !important;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        box-sizing: border-box;
-        margin: 0;
-        transform-origin: right center;
-    }
+     
 
     .faq-2{
       background-color: #f5f5f5;
@@ -359,3 +333,65 @@ background-image: url('/images/llogo.png');
     .skiptranslate select{
       border: none !important;
     }
+
+
+    .button-container {
+      position: fixed;
+          right: 15;
+          top: 50%;
+          transform: rotate(90deg) ;
+          transform-origin: right center;
+          width: var(--button-height);
+          height: var(--button-width);
+          z-index: 20;
+          transform-origin: 0% right;
+         
+  }
+
+ 
+
+
+    .rotated-button {
+      width: var(--button-width);
+      height: var(--button-height);
+     
+      background-color: #ff3030 !important;
+      border-color: #E62415 !important;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin: 0;
+      transform-origin: right center;
+  }
+
+
+
+
+
+
+  .button-container2 {
+    position: fixed;
+        left: 0;
+        top: 85%;
+       
+        width: var(--button-height);
+        height: var(--button-width);
+        z-index: 20;
+        transform-origin: 0% left;
+       
+}
+
+.rotated-button2 {
+  width: var(--button-width);
+  height: var(--button-height);
+ 
+  
+ 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0;
+  transform-origin: right center;
+}

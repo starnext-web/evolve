@@ -48,7 +48,7 @@ export default function Footer() {
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Address</h6>
                 <p>
-                  <Link href="/ResearchDevelopmentDepartment" className="text-reset text-decoration-none now fw-normal">
+                  <Link href="https://maps.app.goo.gl/yKbv77ELJRSG8EDL9" className="text-reset text-decoration-none now fw-normal">
                     <b>UNIT - 1</b><br /> BMW Steels Ltd.
                     Shiv Ganga Industrial Estate,
                     Lakeshwari, Bhagwanpur,
@@ -63,7 +63,7 @@ export default function Footer() {
                   </Link>
                 </p>
                 <p>
-                  <Link href="/WearSealDiamondPutty" className="text-reset text-decoration-none now">
+                  <Link href="https://maps.app.goo.gl/u543ZrLhnKP9ePDT8" className="text-reset text-decoration-none now">
                     <b>UNIT - 3</b><br /> BMW Steels Ltd.
                     NAVIPUR ROAD,
                     HATHRAS – 204101
@@ -126,12 +126,13 @@ export default function Footer() {
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p className="now">
+                
+                <a style={{ backgroundColor: "rgb(0, 0, 0)", color: "#D9D9D9",textDecoration:"none" }} href="https://maps.app.goo.gl/u543ZrLhnKP9ePDT8"><p className="now">
                   <i className="fas fa-location me-3 "></i>
                   <b>Marketing Office</b><br /> BMW Steels Ltd.
                   NAVIPUR ROAD,<br />
                   HATHRAS – 204101
-                </p>
+                </p></a>
                 <p className="now">
                   <i className="fas fa-envelope me-3 "></i>
                   Sales@bmwsteels.com
