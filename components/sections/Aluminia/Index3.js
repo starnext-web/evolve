@@ -180,19 +180,19 @@ increasing the densification.
                 <tbody>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#f48221' }}>Alumina Content</td>
-                    <td style={{ backgroundColor: '#f48221' }}>90 % (min)</td>
+                    <td style={{ backgroundColor: '#f48221' }}>90-92%</td>
                   </tr>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#e7e7e9' }}>Bulk Density</td>
-                    <td style={{ backgroundColor: '#e7e7e9' }}>3.2 gm/cc</td>
+                    <td style={{ backgroundColor: '#e7e7e9' }}>3.6 GM/CC Min</td>
                   </tr>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#f48221' }}>Hardness</td>
-                    <td style={{ backgroundColor: '#f48221' }}>8 on Moh’s scale</td>
+                    <td style={{ backgroundColor: '#f48221' }}>9 on Moh’s scale</td>
                   </tr>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#e7e7e9' }}>Water absorption</td>
-                    <td style={{ backgroundColor: '#e7e7e9' }}>0.5%</td>
+                    <td style={{ backgroundColor: '#e7e7e9' }}>0.1% (NIL)</td>
                   </tr>
                 </tbody>
               </table>
@@ -202,11 +202,11 @@ increasing the densification.
                 <tbody>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#f48221' }}>Compressive strength</td>
-                    <td style={{ backgroundColor: '#f48221' }}>4500 Kg/Cm2</td>
+                    <td style={{ backgroundColor: '#f48221' }}>7000 Kg/Cm&#178;</td>
                   </tr>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#e7e7e9' }}>Flexural Strength</td>
-                    <td style={{ backgroundColor: '#e7e7e9' }}>2200 Kg/Cm2</td>
+                    <td style={{ backgroundColor: '#e7e7e9' }}>2200 Kg/Cm&#178;</td>
                   </tr>
                   <tr style={{ border: '2px solid white' }}>
                     <td style={{ backgroundColor: '#f48221' }}>Abrasion by Rubbing</td>

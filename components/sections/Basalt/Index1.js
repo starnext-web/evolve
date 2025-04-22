@@ -250,7 +250,7 @@ export default function Index1(){
               scope="col"
               className="text-white text-center"
             >
-              Typical Composition
+              Typical Composition (%)
             </th>
           </tr>
         </thead>
@@ -258,7 +258,7 @@ export default function Index1(){
           <tr style={{ border: '2px solid white' }}>
             <td style={{ backgroundColor: '#bdbcc3' }}>Al203</td>
             <td style={{ backgroundColor: '#bdbcc3' }}>Si02</td>
-            <td style={{ backgroundColor: '#bdbcc3' }}>@Fe203/Fe0</td>
+            <td style={{ backgroundColor: '#bdbcc3' }}>Fe203/Fe0</td>
             <td style={{ backgroundColor: '#bdbcc3' }}>Ca0</td>
             <td style={{ backgroundColor: '#bdbcc3' }}>Mg0</td>
             <td style={{ backgroundColor: '#bdbcc3' }}>K20</td>
@@ -310,12 +310,12 @@ export default function Index1(){
               <td style={{ backgroundColor: '#f48221' }}>
                 Comprehensive resistance
               </td>
-              <td style={{ backgroundColor: '#f48221' }}>2,500 - 4,500 kg/cm</td>
+              <td style={{ backgroundColor: '#f48221' }}>2,500 - 4,500 kg/cm  &#178;</td>
             </tr>
 
             <tr style={{ border: '2px solid white' }}>
               <td style={{ backgroundColor: '#e7e7e9' }}>Bending Strenght</td>
-              <td style={{ backgroundColor: '#e7e7e9' }}>250 - 450 kg/cm</td>
+              <td style={{ backgroundColor: '#e7e7e9' }}>250 - 450 kg/cm &#178;</td>
             </tr>
           </tbody>
         </table>
@@ -336,7 +336,7 @@ export default function Index1(){
                 Application temperature <br />range upto
               </td>
               <td style={{ backgroundColor: '#f48221' }}>
-                approx . 620k <br />
+                approx . 620K <br />
                 (approx .350 C)
               </td>
             </tr>

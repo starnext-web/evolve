@@ -171,7 +171,7 @@ export default function Section1(){
 
 
 
-        <div className="carousel-item active" >
+        <div className="carousel-item active" data-bs-interval="8000">
             <div className=" py-md-4 banner-bg"   style={{
     zIndex: 1,
     position: "absolute",
@@ -232,7 +232,7 @@ export default function Section1(){
           
 
 
-          <div className="carousel-item " >
+          <div className="carousel-item " data-bs-interval="30000" >
             <div className=" py-md-4 banner-bg"  style={{
     zIndex: 1,
     position: "absolute",
@@ -251,7 +251,7 @@ export default function Section1(){
             
           </div>
 
-          <div className="carousel-item" >
+          <div className="carousel-item" data-bs-interval="19000" >
             <div className=" py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
@@ -274,7 +274,7 @@ export default function Section1(){
 
 
 
-          <div className="carousel-item" >
+          <div className="carousel-item" data-bs-interval="17000" >
             <div className="py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
@@ -294,7 +294,7 @@ export default function Section1(){
             
           </div>
           
-          <div className="carousel-item" >
+          <div className="carousel-item" data-bs-interval="11000" >
             <div className=" py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
