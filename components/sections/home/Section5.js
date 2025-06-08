@@ -4,948 +4,715 @@ import React from "react";
 export default function Section5(){
     return (
         <>
-        <div className="py-md-5 px-2">
-  <div className="container py-2 py-md-5">
-    <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px', color: 'red' }}>
-      Powering Industries with Precision Manufacturing
-      
-    </h2>
+
+
+        <div className="p-md-5 py-md-0">
+
+
+
+<div className="p-3 p-md-5 row" style={{ margin: '0px' }}>
+
+
+
+
+  <div className="d-flex flex-column justify-content-center align-items-center pb-5">
+    <h2 className=" mobile-fonts-heading text-start  " style={{ fontSize: '75px' }}>
+       Comprehensive Coal Flow Analysis with Cutting-Edge Technology
+      </h2>
+
+      <h4
+        className="pt-4 text-start"
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+       Our manufacturing expertise spans across multiple categories designed to meet the toughest industrial demands. Whether it’s wear-resistant materials or cutting-edge flow management technologies, BMW Steels Ltd. delivers industry-leading products built for durability, efficiency, and sustainability. Explore our innovative solutions crafted to optimize performance and minimize downtime, ensuring your operations run smoothly and effectively
+       </h4>
   </div>
-
-
-{/* CARD  */}
-
-<div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-      <div id="carouselExampleAutoplaying0" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner pt-2">
-        <div className="carousel-item active text-center w-100">
-          <img
-            src="images/mages/Fabrication/1.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6 "
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-             
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-              
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Steels Fabrication</h4>
-          </div>
-        </div>
-        
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Fabrication/2.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          {/* <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-            
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Cast Basalt Tile</h4>
-          </div> */}
-        </div>
-
-
-       
-
-
-      </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying0"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying0"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Fabrication</h2>
-        <h4
-          style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
-          }}
-        >
-          We manufacture high-strength steel components for different industries interests at BMW Steels. Every fabricative endeavour is accomplished with attention to detail owing to our advanced machinery and expert workforce. BMW Steels provides its clients with precise and dependable outcomes.
-          </h4>
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/Fabrication"
-          >
-            Know More
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-
-{/* CARD end  */}
-
-
-  {/* CARD */}
-  <div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-      <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner pt-2">
-        <div className="carousel-item active text-center w-100">
-          <img
-            src="images/mages/Cast-Basalt-Tiles/1.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6 "
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-             
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-              
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Cast Basalt Lined Equipment</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Cast-Basalt-Tiles/2.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Cast Basalt Cylinder</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Cast-Basalt-Tiles/5.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-            
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Cast Basalt Tile</h4>
-          </div>
-        </div>
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Cast-Basalt-Tiles/6.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Cast Basalt Tile</h4>
-          </div>
-        </div>
-
-
-      </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Cast Basalt Division</h2>
-        <h4
-          style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
-          }}
-        >
-          BMW extracts and grades basalt with a unique structure for maximum erosion resistance. The basalt is melted at 1325°C and cast into molds, followed by controlled heat treatment to enhance re-crystallization. This process yields dense, inert, and highly erosion-resistant products with zero porosity, thanks to advanced processing and quality control systems.
-        </h4>
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/CastBasalt"
-          >
-            Know More
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* CARD end */}
-
-  {/* CARD */}
   
-  {/* CARD end */}
-
-  {/* CARD */}
-
-
-  <div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-      <div id="carouselExampleAutoplaying1" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner pt-2">
-        <div className="carousel-item active text-center w-100">
-          <img
-            src="images/mages/Alumina-Powder/5.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6 "
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-             
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-              
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Melt After Cooling And Fracturing</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Powder/2.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Alumina Powder After Ball Milling</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Powder/1.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-            
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Calcined Fused Alumina Abrasive</h4>
-          </div>
-        </div>
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Powder/3.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Calcined Fused Alumina Abrasive</h4>
-          </div>
-        </div>
-
-
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Powder/4.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Mullite Flakes</h4>
-          </div>
-        </div>
-
-
-
-
-        
-
-
-      </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying1"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying1"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Alumina Powder and Fused Alumina Abrasive</h2>
-        <h4
-          style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
-          }}
-        >
-           BMW's Wear Seal® series, including Wear Seal® Diamond and Wear Seal® CBC, protects against extreme wear, abrasion, and corrosion. These customizable linings are applied to pipes, chutes, and hoppers, offering a cost-effective solution to extend machinery life in cement, mining, and power generation industries.
-           </h4>
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/FusedAluminaAbrasive"
-          >
-          Know More
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-
   
-  {/* CARD end */}
-
-
-
-
-
-
-  <div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-      <div id="carouselExampleAutoplaying2" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner pt-2">
-        <div className="carousel-item active text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/1.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6 "
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-             
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-              
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>92%Fused Alumina Powder with additives after spray drying ready for pressing</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/2.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Sintering Process of Alumina Ceramic</h4>
-          </div>
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/8.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-            
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Tiles after hydraulic pressing ready for sintering at 1550°C</h4>
-          </div>
-        </div>
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/4.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Liner</h4>
-          </div>
-        </div>
-
-
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/5.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Liner</h4>
-          </div>
-        </div>
-
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/6.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}> Alumina Ceramic Grinding Media Balls & Cylpebs</h4>
-          </div>
-        </div>
-
-
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/Alumina-Ceramic/7.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Grinding Media Balls & Cylpebs</h4>
-          </div>
-        </div>
-
-
-
-
-        
-
-
-      </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying2"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying2"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Alumina Ceramic Division</h2>
-        <h4
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\1.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
           style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
           }}
         >
-          BMW sources high-grade sintered and fine-ground alumina with a special microstructure for optimal erosion resistance. The alumina powder is mixed with additives and water in a ball mill, then dried in a spray dryer to form granules. These granules are pressed into shape and fired in a tunnel furnace at 1550°C. Each batch undergoes rigorous quality checks to ensure top quality.
-          </h4>
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/AluminiaCeramic"
+          <h5 className="card-title text-white py-2">
+            Coal Mass Flow Measurement
+          </h5>
+          <p className="card-text text-white-50">
+            Coal flow measurement is achieved using microwave-based sensors that continuously monitor the mass of coal moving through pipes from the pulverizer to the burners.
+          </p>
+          <div>
+            <Link
+            href="/CoalMassFlowMeasurement"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
           >
-          Know More
+            Explore Product
           </Link>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {/* CARD */}
-
-
-
-
-
-
-
-
-
-
-
-  <div className="mb-5 scro">
-    <div
-      className="mx-3 mx-md-5 d-flex flex-column p-3 flex-lg-row align-items-center justify-content-center"
-      style={{
-        backgroundColor: '#F4F4F4',
-        borderRadius: '10px',
-        boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-      }}
-    >
-      <div className="p-md-5 w-100 d-flex align-items-center justify-content-center">
-      <div id="carouselExampleAutoplaying3" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner pt-2">
-        <div className="carousel-item active text-center w-100">
-          <img
-            src="images/mages/CBC/1.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          {/* <div
-            className="p-3 section-6 "
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-             
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-              
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>92%Fused Alumina Powder with additives after spray drying ready for pressing</h4>
-          </div> */}
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/CBC/3.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          {/* <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Sintering Process of Alumina Ceramic</h4>
-          </div> */}
-        </div>
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/CBC/2.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          {/* <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-            
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Tiles after hydraulic pressing ready for sintering at 1550°C</h4>
-          </div> */}
-        </div>
-
-
-        <div className="carousel-item text-center w-100">
-          <img
-            src="images/mages/CBC/4.jpg"
-            style={{ borderRadius: '15px' }}
-            className="d-block w-100"
-            alt="..."
-          />
-          {/* <div
-            className="p-3 section-6"
-            style={{
-              color: 'black',
-              backgroundColor: '#D9D9D9',
-              display: 'inline-block',
-              position: 'relative',
-              bottom: '50px',
-              
-              borderRadius: '10px',
-              boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
-            }}
-          >
-            
-            <h4 style={{ color: 'rgb(68, 67, 67)' }}>Alumina Ceramic Liner</h4>
-          </div> */}
-        </div>
-
-
-
-
-
-
-
-
-        
-
-
-      </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying3"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true" />
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying3"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true" />
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
-      </div>
-      <div className="w-100 pe-2 pt-5 m-md-5 d-flex flex-column justify-content-around">
-        <h2 className="fs-1">Chemically Bonded Compound Series (CBC)</h2>
-        <h4
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\2.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
           style={{
-            color: 'rgb(66, 66, 66)',
-            fontWeight: 400,
-            textAlign: 'justify',
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+         
           }}
         >
-         CBC has an advantage for all the grades about flexibility of use. CBCTM can be employed to install new linings with difficult profiles and on the roofs too using few simple lining tools. Recommended CBCTM lining thickness depends on the job requirements and application conditions. The thickness of the lining can be recommended after technical evaluation of BMW at the lining site. Curing time of CBCTM series of compounds is 48 hours.</h4>
-        
-        <div className="d-flex m-auto m-md-0">
-          <Link
-            className="btn btn-danger btn-lg mt-4 mx-md-3 me-1"
-            href="/ChemicallyBondedCompoundSeries"
+          <h5 className="card-title text-white py-2">
+            Particle Size Segregation
+          </h5>
+          <p className="card-text text-white-50">
+           The coal particle size spectrum has a strong impact on the combustion process. It influences ignition delay, combustion efficiency and LoI (loss on ignition),
+           </p>
+          <div>
+            <Link
+            href="/ParticleSizeSegregation"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
           >
-          Know More
+            Explore Product
           </Link>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
+
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\3.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
+          style={{
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+          }}
+        >
+          <h5 className="card-title text-white py-2">
+            Coal Velocity
+Measurement
+          </h5>
+          <p className="card-text text-white-50">
+            The electrostatic sensor also tracks coal particle velocity, ensuring a balanced air-to-fuel ratio for efficient combustion.
+            </p>
+          <div>
+            <Link
+            href="/CoalVelocityMeasurement"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
+          >
+            Explore Product
+          </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\4.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
+          style={{
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+          }}
+        >
+          <h5 className="card-title text-white py-2">
+           Coal Temperature
+Measurement
+          </h5>
+          <p className="card-text text-white-50">
+            Electrostatic sensors measure the temperature
+of coal particles as they flow through the pipe, ensuring the coal burns at optimal
+temperatures.
+</p>
+          <div>
+            <Link
+            href="/CoalTemperatureMeasurement"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
+          >
+            Explore Product
+          </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\5.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
+          style={{
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+          }}
+        >
+          <h5 className="card-title text-white py-2">
+            Coal Rope Breaker
+          </h5>
+          <p className="card-text text-white-50">
+           BMW has developed a unique equipment to create turbulence in coal flow in a section of
+pipe and effectively breaks the high coal concentration areas. 
+</p>
+          <div>
+            <Link
+            href="/CoalRopeBreaker"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
+          >
+            Explore Product
+          </Link>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
 
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\6.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
+          style={{
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+          }}
+        >
+          <h5 className="card-title text-white py-2">
+            Coal Rope Detection
+          </h5>
+          <p className="card-text text-white-50">
+            Coal rope detection involves identifying
+uneven coal distribution within the pipe,
+which can lead to inefficient combustion.
+</p>
+          <div>
+            <Link
+            href="/CoalRopeDetection"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
+          >
+            Explore Product
+          </Link>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-  {/* CARD end */}
+
+    <div className="col-md-3">
+      <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
+        <img
+          src="\images\evolve-home\cfms-img\7.png"
+          className="card-img-top"
+          alt="..."
+          style={{ borderRadius: '20px 20px 0px 0px' }}
+        />
+        <div
+          className="card-body p-4 card-hight d-flex flex-column justify-content-around"
+          style={{
+            backgroundColor: '#072200',
+            borderRadius: '20px',
+            position: 'relative',
+            top: '-30px',
+          }}
+        >
+          <h5 className="card-title text-white py-2">
+            Variable Orifice Valve
+          </h5>
+          <p className="card-text text-white-50">
+           Imbalance in coal flow due to various length of pipe and various number of bends that creates unequal resistance in pipeline.
+           </p>
+          <div>
+            <Link
+            href="/VariableOrificeValve"
+            className="btn btn-primary p-3 my-2"
+            style={{
+              backgroundColor: '#679F0C',
+              border: 'none',
+              borderRadius: '30px',
+            }}
+          >
+            Explore Product
+          </Link>
+          </div>
+        </div>
+      </div>
+    </div>  
+ 
 </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+   <div className="p-md-5 p-4 pt-md-0">
+  <div className="d-md-flex p-3 pt-md-0 px-md-5 justify-content-center align-items-center">
+    <div className="w-100">
+      <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
+        Key Advantages of the BMW Coal Flow System
+      </h2>
+    </div>
+
+    <div className="w-100 px-md-3">
+      <h4>
+        The BMW Dynamic Coal Flow Monitoring System enhances coal-fired power
+        plants by ensuring precise, real-time control of coal distribution.
+        This leads to improved combustion, reduced emissions, and lower operational
+        costs. With cutting-edge sensors and easy-to-use software, the system
+        delivers higher efficiency and sustainability in power generation.
+      </h4>
+    </div>
+  </div>
+
+  <div className="d-lg-flex justify-content-center align-items-center p-3 p-md-5">
+    <div className="w-100">
+      <img
+        src="/images/CFMS/section-3.webp"
+        alt=""
+        className="w-100"
+        style={{ borderRadius: '10px' }}
+      />
+    </div>
+
+    <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">
+      <h2 style={{ fontSize: '49px' }}>Features and Benefits</h2>
+
+     
+        <div >
+          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+            Real-Time Monitoring
+          </h2>
+          <h5>
+            Capable of continuously measuring coal flow in real-time conditions using
+            microwave-based sensors.
+          </h5>
+        </div>
+
+         <div >
+          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+            Accurate Coal Distribution
+          </h2>
+          <h5>
+            Ensures the mass, velocity, and temperature of coal in each pipe are within a permissible deviation of ±5%, for optimum combustion.
+          </h5>
+        </div>
+
+
+         <div >
+          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+            Emission Reduction
+          </h2>
+          <h5>
+            Combustion optimization results in NOx reduction, which is influenced by flame temperature and excess primary air velocity.
+          </h5>
+        </div>
+
+
+         <div >
+          <h2 className="pt-3 fs-3" style={{ color: '#3D5D09' }}>
+            Predictive Maintenance
+          </h2>
+          <h5>
+            The system identifies flow imbalances, allowing early interventions and reduced maintenance costs.
+          </h5>
+        </div>
+     
+    </div>
+  </div>
+</div>
+
+<div className="marquee p-4 p-md-5">
+
+
+  <div className="d-flex flex-column justify-content-center align-items-center">
+    <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '75px' }}>
+       Our Partners
+      </h2>
+
+      <h4
+        className="pt-4  text-center "
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+       We take pride in serving a diverse clientele across industries such as steel,<br/> mining, cement, power, and petrochemicals.
+      </h4>
+  </div>
+
+  <marquee  ><div>
+    <img
+        src="/images/evolve-home/1.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/2.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/3.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/4.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/5.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/6.png"
+        alt=""
+        
+        
+      />
+      <img
+        src="/images/evolve-home/7.png"
+        alt=""
+        
+        
+      /><img
+        src="/images/evolve-home/8.png"
+        alt=""
+        
+        
+      />
+
+
+       <img
+        src="/images/evolve-home/1.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/2.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/3.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/4.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/5.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/6.png"
+        alt=""
+        
+        
+      />
+      <img
+        src="/images/evolve-home/7.png"
+        alt=""
+        
+        
+      /><img
+        src="/images/evolve-home/8.png"
+        alt=""
+        
+        
+      />
+
+       <img
+        src="/images/evolve-home/1.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/2.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/3.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/4.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/5.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/6.png"
+        alt=""
+        
+        
+      />
+      <img
+        src="/images/evolve-home/7.png"
+        alt=""
+        
+        
+      /><img
+        src="/images/evolve-home/8.png"
+        alt=""
+        
+        
+      />
+
+       <img
+        src="/images/evolve-home/1.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/2.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/3.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/4.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/5.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/6.png"
+        alt=""
+        
+        
+      />
+      <img
+        src="/images/evolve-home/7.png"
+        alt=""
+        
+        
+      /><img
+        src="/images/evolve-home/8.png"
+        alt=""
+        
+        
+      /> <img
+        src="/images/evolve-home/1.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/2.png"
+        alt=""
+        
+        
+      />
+
+      <img
+        src="/images/evolve-home/3.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/4.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/5.png"
+        alt=""
+        
+        
+      />
+
+
+      <img
+        src="/images/evolve-home/6.png"
+        alt=""
+        
+        
+      />
+      <img
+        src="/images/evolve-home/7.png"
+        alt=""
+        
+        
+      /><img
+        src="/images/evolve-home/8.png"
+        alt=""
+        
+        
+      />
+    </div></marquee>
+</div>
+
+
         </>
     )}

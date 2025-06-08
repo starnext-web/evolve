@@ -4,23 +4,36 @@ import Footer from "./footer";
 export default function Layout({children}) {
     return(
    <>
+   
    <div className=" button-container ">
-   <button type="button" className="btn btn-primary rotated-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Enquire Now
-</button>
-    </div>
-    <div className=" button-container2 ">
-   <button type="button" className="btn  rotated-button2" data-bs-toggle="modal" data-bs-target="#exampleModal0">
-   <img src="images/suppor.png" width={50}  alt="" />
+
+    <button type="button" className="btn mx-2  rotated-button" data-bs-toggle="modal" data-bs-target="#exampleModal0">
+   <img src="images/evolve-header/1.png" width={30} style={{rotate:"280deg"}}  alt="" />
 </button>
 
+   <button type="button" className="btn btn-primary rotated-button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <img src="images/evolve-header/2.png" width={30} style={{rotate:"270deg"}}  alt="" />
+</button>
+
+
     </div>
+
+
+
+
+
+
+    
+    {/* <div className=" button-container2 ">
+   
+
+    </div> */}
 
 
 <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog">
     <div className="modal-content">
-      <div className="modal-header" style={{ backgroundColor: 'rgb(0, 0, 0)',color:'rgb(255, 255, 255)'}}>
+      <div className="modal-header" style={{ backgroundColor: '#072200',color:'rgb(255, 255, 255)'}}>
         
         <button type="button" style={{ backgroundColor: 'rgb(255, 255, 255)',color:'rgb(255, 255, 255)'}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -49,7 +62,7 @@ export default function Layout({children}) {
               </div>
 
               <div className="text-center">
-                <button type="submit" style={{ backgroundColor: 'red', border: 'none' }} className="btn btn-primary mb-3">
+                <button type="submit" style={{ backgroundColor: 'red', border: 'none' }} className="btn btn-danger mb-3">
                   Submit
                 </button>
               </div>
@@ -66,7 +79,7 @@ export default function Layout({children}) {
 <div className="modal fade" id="exampleModal0" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog">
     <div className="modal-content">
-      <div className="modal-header" style={{ backgroundColor: 'rgb(0, 0, 0)',color:'rgb(255, 255, 255)'}}>
+      <div className="modal-header" style={{ backgroundColor: '#072200',color:'rgb(255, 255, 255)'}}>
         
         <button type="button" style={{ backgroundColor: 'rgb(255, 255, 255)',color:'rgb(255, 255, 255)'}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -82,12 +95,12 @@ export default function Layout({children}) {
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Email</label>
                 
-                <p  className="now">sales@bmwsteels.com</p>
+                <p  className="now">sales@Evolve.com</p>
               </div>
 
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Phone Number</label>
-                <p  className="now"> +91-01 234 567 88</p>
+                <p  className="now"> +91-96-390 170 70</p>
               </div>
 
               <div className="mb-3">

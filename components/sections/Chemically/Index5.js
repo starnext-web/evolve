@@ -1,142 +1,329 @@
 import React from "react";
+import Link from "next/link";
 export default function Index5(){
     return (
-        <>
-    <div>
+         <>
+        <div className=" button-container3 ">
+
+
+<Link
+                className="btn  rotated-button2 py-2  "
+                href="/CaseStudies"
+                style={{ backgroundColor: "#F3C808",color:"black", }}
+              >
+                Our Case Studies 
+              </Link>
+
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+  <div>
       {/* BANNER */}
-      <div className="pt-md-3">
-        <div className="text-center px-md-5 px-2">
-          <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
-            Chemically Bonded Compound Series (CBC)
+      <div className="">
+        <div className="text-center px-md-5  px-2">
+          <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px' }}>
+           Particle Size Segregation
           </h2>
+
+         
         </div>
+
+        {/* Carousel */}
+        <div className="p-3 px-md-5">
+          <div className="px-md-5">
+            <div
+              id="carouselExampleAutoplaying"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src="/images/evolve-volve/volve.png"
+                    alt="Aluminium Fabrication"
+                    layout="responsive"
+                    className="w-100"
+                    style={{ borderRadius: '15px' }}
+                  />
+                  <div
+                    className="p-3 mt-3"
+                    style={{
+                      color: 'black',
+                      backgroundColor: '#D9D9D9',
+                      display: 'inline-block',
+                      borderRadius: '10px',
+                      boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+                    }}
+                  >
+                    <h4 style={{ color: 'rgb(68, 67, 67)' }}>Particle Size Segregation</h4>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* Carousel END */}
       </div>
       {/* BANNER END */}
 
-      {/* Section 2 */}
-      <div className="p-3 px-md-5">
-        <div className="px-md-5">
-          <h2 className="fs-4 fw-normal pt-3">
-            CBC one compound mortar series is trowel onto an anchoring expended mesh.
-          </h2>
-          <h2 className="fs-4 fw-normal pt-3">
-            CBC is a mortar bonded product range; contains extremely hard sintered compounds like Alumina and Silicon Carbide as fillers in CBCTM Linings. CBCTM contains micro and nano-components to ensure high degree of densification by close the pores of the mortar element.
-          </h2>
-          <h2 className="fs-4 fw-normal pt-3">
-            The high hardness fillers of sintered compounds incorporated in the CBCTM matrix offer extremely good sliding wear resistance. CBCTM has a hard sintered Alumina/Bauxite/Silicon Carbide base. CBCTM compounds are available with a variety of bonding agents, depending on the application.
-          </h2>
-          <h2 className="fs-4 fw-normal pt-3">
-            CBC has an advantage for all the grades about flexibility of use. CBCTM can be employed to install new linings with difficult profiles and on the roofs too using few simple lining tools. Recommended CBCTM lining thickness depends on the job requirements and application conditions. The thickness of the lining can be recommended after technical evaluation of BMW at the lining site. Curing time of CBCTM series of compounds is 48 hours.
-          </h2>
-        </div>
-      </div>
-      {/* Section 2 END */}
-
-      {/* Product Table */}
-      <div className="p-md-5">
-        <div className="px-md-5 p-3 d-md-flex justify-content-center align-items-center" style={{ backgroundColor: '#ffffff' }}>
-          <div className="table-responsive pe-5">
-            <table className="table">
-              <thead className="thead-dark">
-                <tr>
-                  <td style={{ backgroundColor: '#ff2d2d', color: '#f4f4f4' }}>PRODUCT</td>
-                  <td style={{ backgroundColor: '#ff2d2d', color: '#f4f4f4' }}>DESCRIPTION</td>
-                  <td style={{ backgroundColor: '#ff2d2d', color: '#f4f4f4' }}>DATASHEET</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style={{ border: '2px solid white' }}>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>CBC 100</td>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>CBC 100 provides moderate wear protection against high erosive wear at temperatures up to 110°C.</td>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>Download</td>
-                </tr>
-                <tr style={{ border: '2px solid white' }}>
-                  <td style={{ backgroundColor: '#f48221' }}>CBC 500</td>
-                  <td style={{ backgroundColor: '#f48221' }}>CBC 500 provide excellent protection against high erosive wear at temperatures up to 400°C.</td>
-                  <td style={{ backgroundColor: '#f48221' }}>Download</td>
-                </tr>
-                <tr style={{ border: '2px solid white' }}>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>CBC 900</td>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>CBC 500 provide excellent protection against high erosive wear at temperatures up to 1000°C.</td>
-                  <td style={{ backgroundColor: '#bdbcc3' }}>Download</td>
-                </tr>
-              </tbody>
-            </table>
+      {/* Section 1 */}
+      {/* <div className="p-md-5 mt-3">
+        <div className="d-lg-flex px-md-5 justify-content-center align-items-center">
+          <div className="w-100 p-3">
+            <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
+              Metal Fabrication Services
+            </h2>
+            <h5
+              className="pt-4"
+              style={{
+                color: 'rgb(66, 66, 66)',
+                fontWeight: 400,
+                textAlign: 'justify',
+              }}
+            >
+              Our state-of-the-art fabrication facility is equipped to deliver high-precision, heavy-duty fabrication solutions 
+tailored for industries such as Power Generation, Cement, oil & gas, mineral processing, and heavy engineering. 
+With advanced machinery, skilled personnel, and strict quality controls, we provide end-to-end fabrication 
+services including machining, up to six meter length pipe rolling, automatic and manual welding, and laser 
+cutting. </h5>
+           
           </div>
-          <img src="images/cbc/section-2.png" alt="" />
+          <div className="text-center p-3 ps-md-5 w-75">
+            <img
+              src="/images/fabrication/Fabrication.jpg"
+              alt="Metal Fabrication"
+              layout="responsive"
+              className="w-100"
+              style={{
+                borderRadius: '10px',
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+              }}
+            />
+          </div>
         </div>
-      </div>
-
-      {/* Application Areas */}
-      <div className="pt-3" style={{ backgroundColor: '#f4f4f4' }}>
-        <div className="text-center px-md-5 px-2">
-          <h2 className="pt-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
-            Application areas of equipment and system components lined with CBC:
-          </h2>
-        </div>
-        <div className="px-md-5 pb-3">
-          <h3 className="pt-4" style={{ color: 'red' }}>1. Drag Chain Conveyors;</h3>
-          <h3 className="pt-4" style={{ color: 'red' }}>2. Pneumatic Conveying systems for Coal, Cement and Slag</h3>
-          <h3 className="pt-4" style={{ color: 'red' }}>3. Dust Extraction Equipment; Hydro Cyclones, Cyclones.</h3>
-          <h3 className="pt-4" style={{ color: 'red' }}>4. Grinding Mill internal lining for Classifier, mill body and difficult shapes.</h3>
-          <h3 className="pt-4" style={{ color: 'red' }}>5. Static and Dynamic Separators; Chutes etc.</h3>
-        </div>
-      </div>
+      </div> */}
+      {/* Section 1 END */}
 
       {/* Section 3 */}
-      <div className="p-md-5 py-md-0 p-3" style={{ backgroundColor: '#f4f4f4' }}>
+      <div className="p-md-5 py-md-5 pt-md-2 p-3" style={{}}>
         <div className="px-md-5">
-          <div className="py-4">
+      <h4
+        className="pt-4"
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+      The coal particle size spectrum has a strong impact on the combustion process. It influences ignition delay, combustion efficiency and LOI (Loss of ignition), the emission levels as well as slagging and fouling. Till date laser based online coal fineness monitoring system can be employed, but this equipment is very costly and multiple maintenance are required in a year.
+      </h4>
+
+
+      <h4
+        className="pt-4"
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+      BMW has invented a process based on modification of kinetic energy imparted to Coal particles in coal mills. Based on the mass of coal, particle size is decided. Thus particle segregation is very much feasible by regulating Primary Air Flow. BMW has proved this fact during operation of the combustion optimization.
+      </h4>
+
+
+
+
+
+         
+        </div>
+      </div>
+
+      
+
+
+  
+
+
+
+
+     
+
+
+      
+
+
+
+      {/* <div className="p-md-5 mt-3">
+        <div className="d-lg-flex px-md-5 justify-content-center align-items-center">
+          <div className="w-100 p-3">
+            <h2 className="pt-md-4 mobile-fonts-heading" style={{ fontSize: '75px' }}>
+              Steel Fabrication
+            </h2>
+            <h5
+              className="pt-4"
+              style={{
+                color: 'rgb(66, 66, 66)',
+                fontWeight: 400,
+                textAlign: 'justify',
+              }}
+            >
+              We manufacture high-strength steel components for different industries interests at BMW Steels. Every fabricative endeavour is accomplished with attention to detail owing to our advanced machinery and expert workforce. BMW Steels provides its clients with precise and dependable outcomes.
+              <br /><br />
+              At BMW Steels, we do more than fabricate—we build enduring relationships with our clients by offering components that are of the best quality and performance. We are adept and responsive owing to our innovation, control measures, client-focused strategies, and continuous innovation. Reliability, technical marvels, and having an unwavering reputation makes BMW Steels a force in high-strength steel fabrication.
+            </h5>
+          </div>
+          <div className="text-center p-3 ps-md-5 w-75">
+            <img
+              src="/images/fabrication/Steel_Fabrication.jpg"
+              alt="Steel Fabrication"
+              layout="responsive"
+              className="w-100"
+              style={{
+                borderRadius: '10px',
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+              }}
+            />
+          </div>
+        </div>
+      </div> */}
+
+      {/* Section: Our Steel Fabrication Services */}
+      {/* <div className="p-3 px-md-5">
+        <div className="px-md-5">
+          <h2
+            className="pt-4 mobile-fonts-heading text-center"
+            style={{ fontSize: '75px' }}
+          >
+            Our Steel Fabrication Services Include:
+          </h2>
+
+          <h2 className="fs-1 p-3">Structural Steel Components</h2>
+          <h2 className="fs-4 fw-normal p-3 pt-4 text-start">
+            Columns and beams are prefabricated by us which serve the purpose of reinforcing massive structures and providing long-term stability.
+          </h2>
+
+          <h2 className="fs-1 p-3">Custom Equipment Fabrication</h2>
+          <h2 className="fs-4 fw-normal p-3 pt-4 text-start">
+            Tools and Machines are designed from scratch and crafted according to the specifications for our customers.
+          </h2>
+
+          <div className="pt-3">
+            <h2 className="fs-1 p-3">Maintenance and Repair</h2>
+            <h2 className="fs-4 fw-normal p-3 pt-4 text-start">
+              Additional measures are adopted to improve the durability of the aged steel structure.
+              <br /><br />
+              In order to manufacture competitively strong products, CNC machines, MIG and TIG welding equipment, plasma cutters, and numerous other tools are incorporated into our workflows. We aim to offer the best in steel fabrication without sacrificing creativity.
+            </h2>
+
+            <h2 className="pt-4 mobile-fonts-heading text-center" style={{ fontSize: '75px' }}>
+              Pipe Fabrication
+            </h2>
+          </div>
+        </div>
+      </div> */}
+
+      {/* Section: Pipe Fabrication */}
+      {/* <div className="p-3 px-md-5">
+        <div className="px-md-5">
+          <h2 className="fs-4 fw-normal py-3 pt-4 text-start">
+            Other than tool and machine fabrication, BMW steels supplies pipes to the mining, and cement power plants industries as well. We tend to maintain the reliability and durability of our pipes too.
+          </h2>
+          <h2 className="fs-1 py-3">Pipe Sizes We Offer:</h2>
+
+          <div className="pt-3">
+            <h2 className="fs-1 py-3" style={{ color: 'red' }}>6m pipes</h2>
+            <h2 className="fs-4 fw-normal py-3 pt-4 text-start">
+              Excellent for use in industrial high-flow systems.
+            </h2>
             <div className="d-flex flex-column-reverse flex-md-column">
               <div className="d-md-flex pt-2">
                 <div className="w-100">
-                  <img src="images/cbc/section-1 (3).png" className="w-100 p-3" alt="" />
+                  <img
+                    src="/images/fabrication/Pipe_Fabrication.jpg"
+                    alt="6m Pipes"
+                    layout="responsive"
+                   
+                    className="w-100 p-3"
+                  />
                 </div>
-                <div className="w-100">
-                  <img src="images/cbc/section-1 (2).png" className="w-100 p-3" alt="" />
-                </div>
-                <div className="w-100">
-                  <img src="images/cbc/section-1 (1).png" className="w-100 p-3" alt="" />
-                </div>
+                <div className="w-100"></div>
+                <div className="w-100"></div>
               </div>
+              <div className="p-3 pt-0"></div>
             </div>
           </div>
 
-          <div
-            id="carouselExampleAutoplaying"
-            className="carousel slide py-5"
-            dataBsRide="carousel"
-          >
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  src="images/cbc/ection-3.png"
-                  style={{ borderRadius: '15px' }}
-                  className="d-block w-100"
-                  alt=""
-                />
+          <div className="pt-3">
+            <h2 className="fs-1" style={{ color: 'red' }}>3m pipes</h2>
+            <h2 className="fs-4 fw-normal py-3 pt-4 text-start">
+              These pipes are suitable for routing in medium-scale modular configurations and open building plans.
+            </h2>
+            <div className="d-flex flex-column-reverse flex-md-column">
+              <div className="d-md-flex pt-2">
+                <div className="w-100">
+                  <img
+                    src="/images/fabrication/3m_steel_pipe.jpg"
+                    alt="3m Pipes"
+                    layout="responsive"
+                    
+                    className="w-100 p-3"
+                  />
+                </div>
+                <div className="w-100"></div>
+                <div className="w-100"></div>
               </div>
+              <div className="p-3 pt-0"></div>
             </div>
           </div>
 
-          <div className="pb-5">
-            <h2 className="fs-4 fw-normal">
-              CBC lining on inner and outer surface of Pipes for Sea water application
+          <div className="pt-3">
+            <h2 className="fs-1" style={{ color: 'red' }}>1.5m pipes</h2>
+            <h2 className="fs-4 fw-normal py-3 pt-4 text-start">
+              Used in tight spaces for system extension or for use as a maintenance substitute.
             </h2>
-            <h2 className="fs-4 fw-normal pt-3">
-              CBC provides excellent protection against high erosive and corrosive wear at temperatures ranging from 100°C to 1000°C depending on the composition of mortar and filler compounds.
-            </h2>
-            <h2 className="fs-4 fw-normal pt-3">
-              A planetary mixer is used for mixing the ready mix powder added with chemical ingredients and water. A significant change in consistency of the dry CBC material (from dry to plastic) must be observed within few minutes from addition of additive chemical added with water. The CBC has to be laid on the Expandable Wire mesh already fitted on the surface of application. CBC comes in three types based on its properties and chemical composition:
-            </h2>
+            <div className="d-flex flex-column-reverse flex-md-column">
+              <div className="d-md-flex pt-2">
+                <div className="w-100">
+                  <img
+                    src="/images/fabrication/1.5m_steel_pipe.jpg"
+                    alt="1.5m Pipes"
+                    layout="responsive"
+                    
+                    className="w-100 p-3"
+                  />
+                </div>
+                <div className="w-100"></div>
+                <div className="w-100"></div>
+              </div>
+              <div className="p-3 pt-0"></div>
+            </div>
           </div>
         </div>
-      </div>
-      {/* Section 3 END */}
-    </div>
+      </div> */}
 
+      {/* Section: Pipe Features */}
     
+    </div>
   
-        
+
+
         </>
     )}

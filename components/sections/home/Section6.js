@@ -1,275 +1,399 @@
 import React from "react";
 export default function Section5(){
-    return (
-        <>
-       <div className="d-none d-lg-block">
-  <div className="p-2 p-md-5 d-flex flex-row justify-content-between align-items-between mt-5">
-    <div className="carousel-thumbnails mt-3 w-100 text-center">
-      <div className="d-flex flex-column justify-content-start align-items-center">
-        <h2 className="pt-4 mobile-fonts-heading" style={{ color: 'red', fontWeight: 600, fontSize: '50px' }}>
-          Certifications and Authorizations
-        </h2>
-        <h4 className="pt-3 pb-3 w-75" style={{ color: 'rgb(66, 66, 66)', fontWeight: 400, textAlign: 'justify' }}>
-          Because we are a transparent company, which puts price on quality, we show you a series of certificates we obtained.
-        </h4>
-      </div>
-      <div>
-        <img
-          src="images/file-10.jpg"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="0"
-          className="active w-25"
-          alt="Thumbnail 1"
-        />
-        <img
-          src="images/file-20.jpg"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="1"
-          alt="Thumbnail 2"
-          className="w-25"
-        />
-        <img
-          src="images/file-30.jpg"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="2"
-          alt="Thumbnail 3"
-            className="w-25"
-        />
+    
+       (() => {
+   const myCarousel = document.querySelector('#carouselExampleControls');
+    const itemsPerSlide = 1; // Move one item per slide
+    new bootstrap.Carousel(myCarousel, {
+      interval: 8000,
+      wrap: true
+    });
 
-<img
-          src="images/file-40.jpg"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="3"
-          alt="Thumbnail 4"
-            className="w-25"
-        />
+    const totalItems = $('.carousel-item').length;
+    const itemWidth = $('.carousel-item').outerWidth();
+    const slideWidth = itemWidth * itemsPerSlide;
 
-<img
-          src="images/file-50.jpg"
-          style={{ cursor: 'pointer' }}
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide-to="4"
-          alt="Thumbnail 5"
-            className="w-25"
-        />
-       
-       
-      </div>
-    </div>
+    $('.carousel-inner').css('width', slideWidth * totalItems);
 
-    <div id="carouselWithThumbnails" className="carousel slide w-50" data-bs-ride="carousel">
-      <div className="carousel-inner w-100">
-        <div className="carousel-item active text-center">
-          <img
-            src="images/file-10.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 1"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-20.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 2"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-30.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 3"
-          />
-        </div>
+    $('.carousel-item').css({
+      'width': '100%',
+      'display': 'inline-block'
+    });
 
-        <div className="carousel-item">
-          <img
-            src="images/file-40.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 3"
-          />
-        </div>
+    $('.carousel-control-prev, .carousel-control-next').on('click', (e) => {
+      const carousel = $('.carousel-inner');
+      const offset = $(e.target).hasClass('carousel-control-prev') ? -slideWidth : slideWidth;
+      carousel.animate({
+        left: `${offset}px`
+      }, 600, () => {
+        // Reset the position and update the classes
+        const position = carousel.position().left;
+        const isPrev = $(e.target).hasClass('carousel-control-prev');
+        const newActiveIndex = isPrev ? position / slideWidth - 1 : position / slideWidth + 1;
+        $('.carousel-item').removeClass('active').eq(Math.round(newActiveIndex)).addClass('active');
+      });
+    });
+  }, []);
 
-        <div className="carousel-item">
-          <img
-            src="images/file-50.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 3"
-          />
-        </div>
-       
-      </div>
+  return (
+    <>
+    <div className="p-2 p-md-5">
+<div className="d-flex flex-column justify-content-center align-items-center ">
+    <h2 className="pt-md-4 mobile-fonts-heading text-center  pt-4" style={{ fontSize: '75px' }}>
+       Trusted by Community
+      </h2>
 
-      <div className="d-none">
-        <button
-          className="carousel-control-prev arrow"
-          type="button"
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            style={{ backgroundColor: 'red', borderRadius: '50%' }}
-            aria-hidden="true"
-          />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next arrow"
-          type="button"
-          data-bs-target="#carouselWithThumbnails"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            style={{ backgroundColor: 'red', borderRadius: '50%' }}
-            aria-hidden="true"
-          />
-          <span className="visually-hidden text-danger">Next</span>
-        </button>
-      </div>
-    </div>
+      <h4
+        className="pt-4 text-center "
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+       At Evolve, our commitment to innovation, reliability, and performance speaks through the voices of our clients. From  large <br/>scale  government projects to private sector giants, our solutions have earned the trust of those who demand excellence.
+      </h4>
   </div>
+    </div>
+    <div className="p-2 p-md-5 ">
+
+      <div id="carouselExampleControls1" className="carousel slide px-md-5" data-bs-ride="carousel">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <div className="row">
+           
+           
+
+
+            <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+             <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+             <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <div className="row">
+            <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+             <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+
+             <div className="col-md-4" >
+              <div className="card p-5 m-4" style={{borderRadius:"30px",boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",border:"none"}}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-between pb-3">
+                                      <img
+                                      height={'50px'}
+                          src="/images/evolve-home/test1.png"
+                          alt=""
+                          
+                          
+                        /><img
+                        height={'70px'}
+                          src="/images/evolve-home/test2.png"
+                          alt=""
+                          style={{borderRadius:"50px",border:"1px solid black"}}
+                          
+                        />
+                  </div>
+                  
+                  <p className="card-text">Evolve's ceramic solutions have significantly improved our plant’s efficiency. Downtime has reduced, and maintenance costs are lower
+than ever</p>
+
+
+                  <div className="d-flex justify-content-between ">
+
+                    <div>
+                     <h5 className="card-title">Sophia Mendell</h5>
+                      <h5 className="card-title fw-normal" style={{color:"#00000099"}}>Chief Executive Officer</h5>
+                    </div>
+
+                    <div>
+                      <span className="pe-3">
+                        5.0
+                      </span>
+                      <img
+                        height={'20px'}
+                          src="/images/evolve-home/star.png"
+                          alt=""
+                          
+                          
+                        />
+                    </div>
+
+                  </div>
+
+
+
+
+                </div>
+              </div>
+            </div>
+            {/* Add more cards as needed */}
+          </div>
+        </div>
+        {/* Add more carousel items as needed */}
+      </div>
+      
+    </div>
+    </div>
+        
+<div >
+  
 </div>
 
-<div className="d-lg-none">
-  <div className="p-2 p-md-5 d-flex flex-column flex-md-row justify-content-between align-items-between mt-5">
-    <div className="carousel-thumbnails mt-3 w-100 text-center d-none">
-      <div className="d-flex flex-column justify-content-start align-items-center">
-        <h2 className="pt-4 mobile-fonts-heading" style={{ color: 'red', fontWeight: 600, fontSize: '50px' }}>
-          Certifications and Authorizations
-        </h2>
-        <h4 className="pt-3 pb-3 w-75" style={{ color: 'rgb(66, 66, 66)', fontWeight: 400, textAlign: 'justify' }}>
-          Because we are a transparent company, which puts price on quality, we show you a series of certificates we obtained.
-        </h4>
-      </div>
-      <img
-        src="images/file-10.jpg"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="0"
-        className="active"
-        alt="Thumbnail 1"
-      />
-      <img
-        src="images/file-20.jpg"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="1"
-        alt="Thumbnail 2"
-      />
-      <img
-        src="images/file-30.jpg"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="2"
-        alt="Thumbnail 3"
-      />
-
-<img
-        src="images/file-40.jpg"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="3"
-        alt="Thumbnail 4"
-      />
-      <img
-        src="images/file-50.jpg"
-        data-bs-target="#carouselWithThumbnailss"
-        data-bs-slide-to="4"
-        alt="Thumbnail 5"
-      />
-      
-      
-      
-    </div>
-
-    <div id="carouselWithThumbnailss" className="carousel slide p-2 w-100" data-bs-ride="carousel">
-      <div>
-        <h2 className="pt-4 mobile-fonts-heading" style={{ color: 'red', fontWeight: 600, fontSize: '50px' }}>
-          Certifications and Authorizations
-        </h2>
-        <h4 className="pt-3 pb-3" style={{ color: 'rgb(66, 66, 66)', fontWeight: 400, textAlign: 'justify' }}>
-          Because we are a transparent company, which puts price on quality, we show you a series of certificates we obtained.
-        </h4>
-      </div>
-      <div className="carousel-inner w-100 m-auto ps-4">
-        <div className="carousel-item active text-center">
-          <img
-            src="images/file-10.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 1"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-20.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 2"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-30.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 3"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-40.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 4"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="images/file-50.jpg"
-            className="d-block"
-            style={{ height: '450px', width: '300px' }}
-            alt="Slide 5"
-          />
-        </div>
-      </div>
-
-      <div className="text-center pt-2">
-        <button
-          className="carousel-control-prev arrow"
-          type="button"
-          data-bs-target="#carouselWithThumbnailss"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            style={{ backgroundColor: 'red', borderRadius: '50%' }}
-            aria-hidden="true"
-          />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next arrow"
-          type="button"
-          data-bs-target="#carouselWithThumbnailss"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            style={{ backgroundColor: 'red', borderRadius: '50%' }}
-            aria-hidden="true"
-          />
-          <span className="visually-hidden text-danger">Next</span>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-  </>
+      </>
+  
     )}

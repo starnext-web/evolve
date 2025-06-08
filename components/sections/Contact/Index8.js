@@ -54,20 +54,21 @@ export default function Index8(){
       {/* Section-1 */}
       <div className="p-lg-5">
         <div className="p-lg-5 p-3 d-lg-flex">
-          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: 'rgb(255, 211, 211)', borderRadius: '10px' }}>
-            <img src="images/contact-us/span.w-32.png" alt="" />
-            <h2 className="pt-4 fs-3">sales@bmwsteels .com</h2>
+          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <img src="images/evolve-contact/1.png" alt="" />
+            <h2 className="pt-4 fs-3">sales@evolve .com</h2>
             <h4 className="pt-3 fw-normal">We aim to respond within 24 hours.</h4>
           </div>
 
-          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: 'rgb(255, 211, 211)', borderRadius: '10px' }}>
-            <img src="images/contact-us/span.w-32 (1).png" alt="" />
-            <h2 className="pt-4">BMW Steels Ltd</h2>
-            <h4 className="pt-3 fw-normal">55, Pritam Road, Dalanwala, Dehradun-248001</h4>
+          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <img src="images/evolve-contact/2.png" alt="" />
+            <h2 className="pt-4"> Evolve Technologies</h2>
+            <h4 className="pt-3 fw-normal">02 Balbir Road, Dalanwala,
+ Dehradun, Uttarakhand, 248001</h4>
           </div>
 
-          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: 'rgb(255, 211, 211)', borderRadius: '10px' }}>
-            <img src="images/contact-us/span.w-32 (2).png" alt="" />
+          <div className="m-lg-4 mt-3 text-center w-100 p-5" style={{ backgroundColor: '#F1F9EE', borderRadius: '10px' }}>
+            <img src="images/evolve-contact/3.png" alt="" />
             <h2 className="pt-4">+91-96390 17070</h2>
             <h4 className="pt-3 fw-normal">Our calls hours are Mon-sat 9am-6:30pm.</h4>
           </div>
@@ -87,35 +88,19 @@ export default function Index8(){
             </h4>
 
             <div className="d-md-flex">
-              <div className="w-100">
-                <h3 className="pt-3 fw-normal" style={{ color: 'red' }}>Corporate Office</h3>
-                <h4 className="pt-3 fw-normal">
-                  BMW Steels Ltd<br />
-                  55, Pritam Road, Dalanwala, Dehradun-248001<br />
-                  Mobile: +91-96390 17070<br />
-                  Email: sales@bmwsteels.com
-                </h4>
-              </div>
+              
 
               <div className="w-100">
-                <h3 className="pt-3 fw-normal" style={{ color: 'red' }}>Head Office</h3>
+                <h3 className="pt-3 fw-normal" style={{ color: '#3D5D09' }}>Head Office</h3>
                 <h4 className="pt-3 fw-normal">
-                  BMW Steels Ltd<br />
-                  Shiv Ganga Industrial Estate, Bhagwanpur, Haridwar (U.K.) – 247667<br />
-                  Mobile: +91 98377 55569
+                  Evolve Technologies<br />
+                  02 Balbir Road, Dalanwala,
+ Dehradun, Uttarakhand, 248001
                 </h4>
               </div>
             </div>
 
-            <div className="d-md-flex">
-              <div className="w-100">
-                <h3 className="pt-3 fw-normal" style={{ color: 'red' }}>Marketing Office</h3>
-                <h4 className="pt-3 fw-normal">
-                  BMW Steels Ltd<br />
-                  705, 7th Floor, RG Trade Tower, B-7 Netaji Subhash Place, Pitam Pura, New Delhi - 110034
-                </h4>
-              </div>
-            </div>
+            
           </div>
 
           <div className="w-100 d-flex justify-content-center align-items-center mt-3 mt-md-0">
@@ -142,7 +127,7 @@ export default function Index8(){
               </div>
 
               <div className="text-center">
-                <button type="submit" style={{ backgroundColor: 'red', border: 'none' }} className="btn btn-primary mb-3">
+                <button type="submit" style={{ backgroundColor: '#679F0C', border: 'none' }} className="btn btn-primary mb-3">
                   Submit
                 </button>
               </div>

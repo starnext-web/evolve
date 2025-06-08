@@ -8,7 +8,7 @@ export default function Section1(){
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators  ">
+        <div className="carousel-indicators">
 
 
 
@@ -19,7 +19,7 @@ export default function Section1(){
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
-            className="active w-25 d-none d-lg-block"
+            className="active w-25 d-none "
             aria-current="true"
             aria-label="Slide 1"
             
@@ -36,12 +36,13 @@ export default function Section1(){
                       display: "none",
                     }}  >Current</p>
   <div>
-    <img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt=""/>
+  
+    <img src="images/evolve-home/1.jpg" style={{ borderRadius: "10px" }} width="100px" alt=""/>
     </div>
-    <div style={{ fontWeight: 500, width: "150px" }}>BMW Steels
+    <div style={{ fontWeight: 500, width: "150px" }}>CFMS
     </div>
     <div>
-      <img src="images/banner-arrow.png" className="w-100" alt=""/>
+       <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/>
     </div>
       </div>
           </button>
@@ -80,10 +81,10 @@ export default function Section1(){
   <div>
     <img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" />
     </div>
-    <div style={{ fontWeight: 500, width: "150px" }}>Cast Basalt
+    <div style={{ fontWeight: 500, width: "150px" }}>Coal Mass Flow & Velocity Measurements 
     </div>
     <div>
-      <img src="images/banner-arrow.png" className="w-100" alt=""/>
+      <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/>
     </div>
       </div>
           </button>
@@ -110,7 +111,7 @@ export default function Section1(){
     color: "white",
     display: "none",
   }}>Current</p>
-  <div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Fused Alumina Abrasive</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
+  <div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Particle Size Segregation</div><div> <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/></div></div>
           </button>
 
 
@@ -125,7 +126,7 @@ export default function Section1(){
             aria-current="true"
             aria-label="Slide 4"
           >
-            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Alumina Ceramic</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
+            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Coal Temperature Measurement</div><div> <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/></div></div>
           </button>
 
 
@@ -137,7 +138,7 @@ export default function Section1(){
             aria-current="true"
             aria-label="Slide 5"
           >
-            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Lining Erosion Warning System</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
+            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Coal Rope Detection</div><div> <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/></div></div>
           </button>
 
 
@@ -149,8 +150,25 @@ export default function Section1(){
             aria-current="true"
             aria-label="Slide 6"
           >
-            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Basaltic Mineral Fertilizer</div><div><img src="images/banner-arrow.png" className="w-100" alt=""/></div></div>
+            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Coal Rope Breaker</div><div> <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/></div></div>
           </button>
+
+
+
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            className=" w-25 d-none d-lg-block"
+            aria-current="true"
+            aria-label="Slide 7"
+          >
+            <div className="d-flex ps-2 justify-content-between align-items-center"><div><img src="images/banner-img.jpg" style={{ borderRadius: "10px" }} width="100px" alt="" /></div><div style={{ fontWeight: 500, width: "150px" }}>Variable orifice valve</div><div> <img src="images/evolve-home/banner-arrow.png" className="w-75" alt=""/></div></div>
+          </button>
+
+
+          
 
 
 
@@ -171,7 +189,7 @@ export default function Section1(){
 
 
 
-        <div className="carousel-item active" data-bs-interval="8000">
+        <div className="carousel-item active" >
             <div className=" py-md-4 banner-bg"   style={{
     zIndex: 1,
     position: "absolute",
@@ -183,11 +201,12 @@ export default function Section1(){
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}
 >
-<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>BMW Steels Ltd</h1></div>
+<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>CFMS</h1></div>
            
 
 <div className="video-container">
-  <video className="w-100" src="/banner-video/banner-video4.mp4" autoPlay loop muted />
+  <video id="video1" className="w-100" src="/images/cfms/cfms.mp4" autoPlay  loop muted />
+  
 </div>
 
             
@@ -212,11 +231,11 @@ export default function Section1(){
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}
 >
-<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>CAST BASALT</h1></div>
+<h1 className="text-center mobile-fonts" id="ok" style={{ fontSize: "80px", fontWeight: 600 }}>Coal Mass Flow & Velocity Measurements</h1></div>
            
 
 <div className="video-container">
-  <video className="w-100" src="/banner-video/BMWFRONT.mp4" autoPlay loop muted />
+  <video id="video2" className="w-100" src="/images/CFMS/video1.mp4" autoPlay loop  muted />
 </div>
 
             
@@ -232,7 +251,7 @@ export default function Section1(){
           
 
 
-          <div className="carousel-item " data-bs-interval="30000" >
+          {/* <div className="carousel-item slider" >
             <div className=" py-md-4 banner-bg"  style={{
     zIndex: 1,
     position: "absolute",
@@ -243,15 +262,20 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>FUSED ALUMINA ABRASIVE</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal </h1></div>
             
           <div className="video-container">
-      <video className="w-100" src="/banner-video/abrasive2.mp4" autoPlay loop muted/>
+      <video id="video3" className="w-100"  src="/images/CFMS/video-2.mp4" loop autoPlay  muted/>
     </div>
             
-          </div>
+          </div> */}
 
-          <div className="carousel-item" data-bs-interval="19000" >
+
+
+
+
+
+          <div className="carousel-item slider" >
             <div className=" py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
@@ -262,11 +286,11 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>ALUMINA CERAMIC</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Particle Size Segregation</h1></div>
             
           
             <div className="video-container">
-  <video className="w-100" src="/banner-video/aluminia3.mp4" autoPlay loop muted />
+  <video id="video4" className="w-100" src="/images/CFMS/video3.mp4" loop autoPlay  muted />
 </div>
 
             
@@ -274,7 +298,7 @@ export default function Section1(){
 
 
 
-          <div className="carousel-item" data-bs-interval="17000" >
+          <div className="carousel-item slider" >
             <div className="py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
@@ -285,16 +309,16 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>LINING EROSION WARNING SYSTEM</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Temperature Measurement</h1></div>
             
           
           <div className="video-container">
-      <video className="w-100" src="/banner-video/system.mp4" autoPlay loop muted />
+      <video id="video5" className="w-100" src="/images/CFMS/video4.mp4" loop autoPlay  muted />
     </div>
             
           </div>
           
-          <div className="carousel-item" data-bs-interval="11000" >
+          <div className="carousel-item" >
             <div className=" py-md-4 banner-bg" style={{
     zIndex: 1,
     position: "absolute",
@@ -305,16 +329,60 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>BASALTIC MINERAL FERTILIZER</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Detection</h1></div>
             
           
             <div className="video-container">
-  <video className="w-100" src="/banner-video/banner-video5.mp4" autoPlay loop muted />
+  <video id="video6" className="w-100" src="/images/CFMS/video5.mp4" loop autoPlay  muted />
 </div>
 
             
           </div>
           
+
+
+
+          <div className="carousel-item slider" >
+            <div className="py-md-4 banner-bg" style={{
+    zIndex: 1,
+    position: "absolute",
+    left: 0,
+    right: 0,
+    color: "#D9D9D9",
+    marginInline: "auto",
+    width: "auto",
+    background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
+  }}>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Breaker</h1></div>
+            
+          
+          <div className="video-container">
+      <video id="video5" className="w-100" src="/images/CFMS/video6.mp4" loop autoPlay  muted />
+    </div>
+            
+          </div>
+
+
+
+          <div className="carousel-item slider" >
+            <div className="py-md-4 banner-bg" style={{
+    zIndex: 1,
+    position: "absolute",
+    left: 0,
+    right: 0,
+    color: "#D9D9D9",
+    marginInline: "auto",
+    width: "auto",
+    background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
+  }}>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Breaker</h1></div>
+            
+          
+          <div className="video-container">
+      <video id="video5" className="w-100" src="/images/CFMS/video8.mp4" loop autoPlay  muted />
+    </div>
+            
+          </div>
 
           
 

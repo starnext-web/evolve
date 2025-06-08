@@ -17,9 +17,14 @@ function animateCounter(elementId, target, duration) {
 
 // Observer to detect when elements are in the viewport
 const counters = [
-  { id: "counter1", target: 25, duration: 1000 },
-  { id: "counter2", target: 8, duration: 2000 },
-  { id: "counter3", target: 300, duration: 3000 },
+  { id: "counter1", target: 25, duration: 3000 },
+  { id: "counter2", target: 1, duration: 2000 },
+  { id: "counter3", target: 19, duration: 3000 },
+   { id: "counter4", target: 0.77, duration: 3000 },
+    { id: "counter5", target: 25, duration: 3000 },
+     { id: "counter6", target: 1, duration: 3000 },
+      { id: "counter7", target: 19, duration: 3000 },
+       { id: "counter8", target: 0, duration: 3000 },
 ];
 
 const observerOptions = {
@@ -80,3 +85,6 @@ clipp.forEach(clip => {
         }
     });
 });
+
+
+
