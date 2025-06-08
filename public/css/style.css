@@ -1,6 +1,8 @@
 
       /* font */
 
+      
+
       body {
         font-family: "Poppins", serif !important;
         font-weight: 400 !important;
@@ -242,7 +244,7 @@
       
 
       .card-hight{
-        height: 300px;
+        height:400px;
       }
       
 

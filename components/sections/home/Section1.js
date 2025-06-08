@@ -201,7 +201,7 @@ export default function Section1(){
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}
 >
-<h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>CFMS</h1></div>
+<h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>CFMS</h1></div>
            
 
 <div className="video-container">
@@ -235,7 +235,7 @@ export default function Section1(){
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}
 >
-<h1 className="text-center mobile-fonts" id="ok" style={{ fontSize: "80px", fontWeight: 600 }}>Coal Mass Flow & Velocity Measurements</h1></div>
+<h1 className="text-center mobile-fonts" id="ok" style={{ fontSize: "70px", fontWeight: 600 }}>Coal Mass Flow & Velocity Measurements</h1></div>
            
 
 <div className="video-container">
@@ -290,7 +290,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Particle Size Segregation</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Particle Size Segregation</h1></div>
             
           
             <div className="video-container">
@@ -313,7 +313,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Temperature Measurement</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Coal Temperature Measurement</h1></div>
             
           
           <div className="video-container">
@@ -333,7 +333,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Detection</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Coal Rope Detection</h1></div>
             
           
             <div className="video-container">
@@ -357,7 +357,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Breaker</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Coal Rope Breaker</h1></div>
             
           
           <div className="video-container">
@@ -379,7 +379,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "90px", fontWeight: 600 }}>Coal Rope Breaker</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Variable orifice valve</h1></div>
             
           
           <div className="video-container">
