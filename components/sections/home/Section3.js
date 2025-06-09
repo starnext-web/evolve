@@ -93,7 +93,7 @@ Evolve Technologies
       
       <h4
         className="pt-4"
-        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "start" }}
       >
        Evolve is a pioneer in Coal Flow Measurement Systems (CFMS),
 providing advanced monitoring and balancing solutions for

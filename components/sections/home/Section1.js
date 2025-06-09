@@ -379,7 +379,7 @@ export default function Section1(){
     width: "auto",
     background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.868) 100%)",
   }}>
-          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Variable orifice valve</h1></div>
+          <h1 className="text-center mobile-fonts" style={{ fontSize: "70px", fontWeight: 600 }}>Variable Orifice Valve</h1></div>
             
           
           <div className="video-container">

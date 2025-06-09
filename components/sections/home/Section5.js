@@ -32,7 +32,7 @@ export default function Section5(){
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\1.png"
+          src="\images\evolve-home\cfms-img\image1.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -72,7 +72,7 @@ export default function Section5(){
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\2.png"
+          src="\images\evolve-home\cfms-img\image5.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -114,7 +114,7 @@ export default function Section5(){
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\3.png"
+          src="\images\evolve-home\cfms-img\image2.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -156,7 +156,7 @@ Measurement
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\4.png"
+          src="\images\evolve-home\cfms-img\image2.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -201,7 +201,7 @@ temperatures.
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\5.png"
+          src="\images\evolve-home\cfms-img\image33.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -245,7 +245,7 @@ pipe and effectively breaks the high coal concentration areas.
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\6.png"
+          src="\images\evolve-home\cfms-img\image4.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}
@@ -289,7 +289,7 @@ which can lead to inefficient combustion.
     <div className="col-md-3">
       <div className="card" style={{ borderRadius: '50px', border: 'none' }}>
         <img
-          src="\images\evolve-home\cfms-img\7.png"
+          src="\images\evolve-home\cfms-img\image6.jpg"
           className="card-img-top"
           alt="..."
           style={{ borderRadius: '20px 20px 0px 0px' }}

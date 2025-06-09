@@ -30,7 +30,7 @@ and extending equipment life.
             </h2>
             <h5
               className="pt-4"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               With a focus on innovation, durability, and efficiency, Evolve delivers high-performance wear-resistant
 materials
@@ -41,7 +41,7 @@ and more.
             </h5>
             <h5
               className="pt-4"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               Backed by decades of expertise, advanced engineering, and a commitment to quality, Evolve stands as a
 trusted partner for industries requiring robust and reliable wear solutions. Our mission is to help businesses
@@ -105,7 +105,7 @@ minimize downtime, reduce maintenance costs, and optimize performance  through w
                   <h2 className="text-center">Our Vision</h2>
                   <h5
               className="pt-4"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               To be the national leader
 in combustion optimization
@@ -121,7 +121,7 @@ in power plants.
 
                   <h5
               className="pt-4"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               To provide Innovative
 technical solution that
@@ -175,14 +175,14 @@ air to fuel ratio.
 
           <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               Evolve Technologies has a goal to navigating towards greener future in Coal Combustion by reducing greenhouse gases through Dynamic Coal Flow Monitoring and Balancing System.
             </h5>
 
               <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               Energy security and CO2 emission reduction are two major concerns
 of today’s world. Improving efficiency of the energy systems is an
@@ -192,7 +192,7 @@ CO2 emissions.</h5>
 
               <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               At COP26, in November, 2021, Prime Minister announced that India will
 achieve the target of net zero emissions by 2070. India’s 80% electricity
@@ -204,7 +204,7 @@ generation is based on coal.
 
               <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               It is widely recognized within the electric utility industry that coal pipe
 flow imbalance is widely responsible for loss in boiler efficiency,
@@ -216,7 +216,7 @@ in boiler tube and firing system maintenance problems.
 
  <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               It has been considered as a potential area that needs to be addressed
 for improving unit performance. With the introduction of new generation
@@ -228,7 +228,7 @@ has become an important subject”.
 
  <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               Indian coal power utilities are undergoing a radical change with advent of
 renewable power generation. In order to ensure grid security and stability,
@@ -242,7 +242,7 @@ generation from thermal plants as base load.
 
  <h5
               className="pt-3"
-              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'justify' }}
+              style={{ color: 'rgb(66, 66, 66)', fontWeight: '400', textAlign: 'start' }}
             >
               Key challenges for a highly flexible power plant operation is reduction to
 the minimum load and the increase of the load change. This requires

@@ -53,7 +53,7 @@ const Section4 = () => {
             style={{
               color: 'rgb(66, 66, 66)',
               fontWeight: 400,
-              textAlign: 'justify',
+              textAlign: 'start',
             }}
           >
             BMW's Dynamic Coal Flow Monitoring System is an innovative solution
@@ -71,7 +71,7 @@ const Section4 = () => {
             style={{
               color: 'rgb(66, 66, 66)',
               fontWeight: 400,
-              textAlign: 'justify',
+              textAlign: 'start',
             }}
           >
             The system is designed to support flexible power generation,

@@ -1,7 +1,4 @@
-
-      /* font */
-
-      
+/* font */
 
       body {
         font-family: "Poppins", serif !important;
@@ -145,9 +142,11 @@
        
 
         .mobile-fonts-heading{
-          font-size: 35px !important;
+          font-size: 32px !important;
           text-align: start !important;
         }
+
+       
 
         .mobile-fonts-heading-sub{
           font-size: 20px !important;
@@ -244,7 +243,7 @@
       
 
       .card-hight{
-        height:400px;
+        height: 300px;
       }
       
 
@@ -1286,5 +1285,3 @@ swiper-container .swiper-notification {
 .carousel-control-next, .carousel-control-prev{
   height: 80vh !important;
 }
-
-
