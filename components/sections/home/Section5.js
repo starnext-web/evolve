@@ -361,11 +361,17 @@ which can lead to inefficient combustion.
   <div className="d-lg-flex justify-content-center align-items-center p-3 p-md-5">
     <div className="w-100">
       <img
-        src="/images/CFMS/section-3.webp"
+        
+      />
+      <video src="/images/CFMS/crops.mp4"
         alt=""
         className="w-100"
         style={{ borderRadius: '10px' }}
-      />
+        loop autoPlay  muted
+        />
+        
+
+      
     </div>
 
     <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">

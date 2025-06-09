@@ -48,12 +48,14 @@ export default function Index6(){
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img
-                    src="/images/evolve-volve/volve.png"
+                  <video
+                   src="/images/CFMS/Product-videos/2.mp4"
                     alt="Aluminium Fabrication"
                     layout="responsive"
                     className="w-100"
                     style={{ borderRadius: '15px' }}
+                    autoPlay
+                    loop
                   />
                   <div
                     className="p-3 mt-3"
