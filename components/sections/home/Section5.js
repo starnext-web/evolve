@@ -348,13 +348,17 @@ which can lead to inefficient combustion.
     </div>
 
     <div className="w-100 px-md-3">
-      <h4>
-        The BMW Dynamic Coal Flow Monitoring System enhances coal-fired power
+      
+      <h4
+        className="pt-4 text-start"
+        style={{ color: "rgb(66, 66, 66)", fontWeight: 400, textAlign: "justify" }}
+      >
+       The BMW Dynamic Coal Flow Monitoring System enhances coal-fired power
         plants by ensuring precise, real-time control of coal distribution.
         This leads to improved combustion, reduced emissions, and lower operational
         costs. With cutting-edge sensors and easy-to-use software, the system
         delivers higher efficiency and sustainability in power generation.
-      </h4>
+         </h4>
     </div>
   </div>
 
@@ -374,8 +378,8 @@ which can lead to inefficient combustion.
       
     </div>
 
-    <div className="w-100 ps-md-5 d-flex flex-column justify-content-between">
-      <h2 style={{ fontSize: '49px' }}>Features and Benefits</h2>
+    <div className="w-100 ps-md-5 d-flex flex-column justify-content-between ">
+      <h2 className="mobile-fonts-heading" style={{ fontSize: '49px' }}>Features and Benefits</h2>
 
      
         <div >

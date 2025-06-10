@@ -239,7 +239,7 @@ export default function Section1(){
            
 
 <div className="video-container">
-  <video id="video2" className="w-100" src="/images/CFMS/video1.mp4" autoPlay loop  muted />
+  <video id="video2" className="w-100" src="/images/CFMS/1.mp4" autoPlay loop  muted />
 </div>
 
             
